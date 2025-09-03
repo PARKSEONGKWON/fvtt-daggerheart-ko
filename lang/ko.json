@@ -867,327 +867,327 @@
                 }
             },
             "BeastformType": {
-                "normal": "Normal",
-                "evolved": "Evolucionado",
-                "hybrid": "Híbrido"
+                "normal": "일반",
+                "evolved": "진화체",
+                "hybrid": "복합체"
             },
             "Burden": {
-                "oneHanded": "Una mano",
-                "twoHanded": "Dos manos"
+                "oneHanded": "한손",
+                "twoHanded": "양손"
             },
             "RangeInclusion": {
-                "withinRange": "En alcance",
-                "outsideRange": "Fuera de alcance"
+                "withinRange": "거리 내",
+                "outsideRange": "거리 밖"
             },
             "Condition": {
                 "dead": {
-                    "name": "Muerto",
-                    "description": "El personaje está muerto"
+                    "name": "사망",
+                    "description": "캐릭터가 사망했습니다."
                 },
                 "defeated": {
-                    "name": "Derrotado",
-                    "description": "El adversario está derrotado."
+                    "name": "패배",
+                    "description": "적대자가 패배했습니다."
                 },
                 "hidden": {
-                    "name": "Oculto",
-                    "_description": "While Hidden, attacks cannot be made directly targeting them nd any rolls against them are at disadvantage.\nWhen a Hidden creature moves or attacks, they are no longer Hidden. However, if a creature is Hidden when they begin making an attack, the roll has advantage; the Hidden condition isn’t cleared until after the attack is resolved."
+                    "name": "은신",
+                    "_description": "은신 상태의 생물을 직접 대상으로 삼아 공격할 수 없으며, 이들을 대상으로 하는 모든 굴림은 불리점을 받습니다.\n은신 상태의 생물이 이동하거나 공격하면 은신이 해제됩니다. 다만 은신 상태에서 공격을 시작하면 그 공격 굴림은 이점을 가지며, 공격이 끝난 후에 은신 상태가 해제됩니다."
                 },
                 "restrained": {
-                    "name": "Apresado",
-                    "_description": "When an effect makes a creature Restrained, it means they cannot move until this condition is cleared.\nThey can still take actions from their current position."
+                    "name": "포박",
+                    "_description": "포박 상태가 되면 이 상태가 해제될 때까지 이동할 수 없습니다.\n하지만 현재 위치에서 행동은 여전히 가능합니다"
                 },
                 "unconscious": {
-                    "name": "Inconsciente",
-                    "_description": "Your character can’t move or act while unconscious, they can’t be targeted by an attack."
+                    "name": "무의식",
+                    "_description": "무의식 때 캐릭터는 이동하거나 행동할 수 없으며, 공격의 대상이 될 수도 없습니다."
                 },
                 "vulnerable": {
-                    "name": "Vulnerable",
-                    "_description": "While a creature is Vulnerable, all rolls targeting them have advantage.\nA creature who is already Vulnerable can’t be made to take the condition again."
+                    "name": "취약",
+                    "_description": "취약 상태의 생물을 대상으로 하는 모든 굴림은 이점을 받습니다.\n이미 취약 상태인 생물에게는 다시 취약 상태를 부여할 수 없습니다."
                 }
             },
             "CountdownType": {
-                "spotlight": "Foco",
-                "custom": "Personalizado",
-                "characterAttack": "Ataque de personaje"
+                "spotlight": "주목",
+                "custom": "사용자 지정",
+                "characterAttack": "캐릭터 공격"
             },
             "DamageType": {
                 "physical": {
-                    "name": "Físico",
-                    "abbreviation": "Fís"
+                    "name": "물리 피해",
+                    "abbreviation": "물리"
                 },
                 "magical": {
-                    "name": "Mágico",
-                    "abbreviation": "Mág"
+                    "name": "마법 피해",
+                    "abbreviation": "마법"
                 }
             },
             "DeathMoves": {
                 "avoidDeath": {
-                    "name": "Evitar la muerte",
-                    "description": "Caes inconsciente temporalmente y describe con la ayuda del DJ cómo la situación se vuelve más desesperada a causa de esto. Luego tira tu dado de Miedo; si su valor es igual o mejor que tu nivel recibes una Cicatriz."
+                    "name": "죽음 회피",
+                    "description": "당신은 일시적으로 의식을 잃고, 이로 인해 상황이 어떻게 더 절망적으로 변하는지를 GM의 도움을 받아 묘사합니다. 그런 다음 공포 주사위를 굴립니다. 그 값이 당신의 레벨과 같거나 더 높으면 흉터를 하나 받습니다."
                 },
                 "riskItAll": {
-                    "name": "Arriesgarlo todo",
-                    "description": "Tira tus dados de dualidad. Si el de Esperanza es más alto, te mantienes en pie y eliminas una cantidad de Puntos de Golpe y/o Estrés igual al valor del dado de Esperanza (divide el resultado entre ambos como prefieras). Si el dado de Miedo es mayor cruzas el velo de la muerte. Si ambos dados tienen el mismo resultado te mantienes en pie y eliminas todo tu estrés y puntos de golpe."
+                    "name": "모든 것을 건다",
+                    "description": "이중성 주사위를 굴립니다. 희망 주사위가 더 높으면, 쓰러지지 않고 서 있으며 희망 주사위 값만큼 HP/스트레스를 제거합니다(원하는 대로 나누어 적용할 수 있습니다). 공포 주사위가 더 높으면 죽음의 장막을 건넙니다. 두 주사위가 같은 결과라면, 쓰러지지 않고 서 있으며 모든 스트레스와 HP를 치료합니다."
                 },
                 "blazeOfGlory": {
-                    "name": "Momento de gloria",
-                    "description": "Con momento de gloria el jugador acepta la muerte del personaje. Haz una acción (a discreción del DJ), que es automáticamente un éxito crítico, y luego cruza el velo de la muerte."
+                    "name": "영광스러운 최후",
+                    "description": "영광의 순간을 선택하면 플레이어는 캐릭터의 죽음을 받아들입니다. 행동 하나를 수행하며(세부 사항은 GM의 재량), 그 행동은 자동으로 치명적 성공이 되고, 이후 죽음의 장막을 건넙니다."
                 }
             },
             "DomainCardTypes": {
-                "ability": "Habilidad",
-                "spell": "Conjuro",
-                "grimoire": "Grimorio"
+                "ability": "능력",
+                "spell": "주문",
+                "grimoire": "마도서"
             },
             "EnvironmentType": {
                 "exploration": {
-                    "label": "Exploración",
+                    "label": "탐험",
                     "_description": ""
                 },
                 "social": {
-                    "label": "Social",
+                    "label": "사회",
                     "_description": ""
                 },
                 "traversal": {
-                    "label": "Travesía",
+                    "label": "이동",
                     "_description": ""
                 },
                 "event": {
-                    "label": "Evento",
+                    "label": "사건",
                     "_description": ""
                 }
             },
             "Gold": {
-                "title": "Oro",
-                "coins": "Monedas",
-                "handfuls": "Puñados",
-                "bags": "Bolsas",
-                "chests": "Cofres"
+                "title": "금화",
+                "coins": "동전",
+                "handfuls": "줌",
+                "bags": "자루",
+                "chests": "상자"
             },
             "HealingType": {
                 "hitPoints": {
-                    "name": "Puntos de Golpe",
-                    "abbreviation": "PG"
+                    "name": "HP",
+                    "abbreviation": "HP"
                 },
                 "stress": {
-                    "name": "Estrés",
+                    "name": "스트레스",
                     "abbreviation": "STR"
                 },
                 "hope": {
-                    "name": "Esperanza",
-                    "abbreviation": "ES"
+                    "name": "희망",
+                    "abbreviation": "HO"
                 },
                 "armor": {
-                    "name": "Espacio de Armadura",
+                    "name": "방어 슬롯",
                     "abbreviation": "AR"
                 },
                 "fear": {
-                    "name": "Miedo",
-                    "abbreviation": "MI"
+                    "name": "공포",
+                    "abbreviation": "FR"
                 }
             },
             "ItemResourceProgression": {
-                "increasing": "Creciente",
-                "decreasing": "Decreciente"
+                "increasing": "증가",
+                "decreasing": "감소"
             },
             "ItemResourceType": {
-                "simple": "Simple",
-                "diceValue": "Valor de dado"
+                "simple": "단순",
+                "diceValue": "주사위 값"
             },
             "Range": {
                 "self": {
-                    "name": "Personal",
-                    "description": "significa tú mismo.",
-                    "short": "Personal"
+                    "name": "자신",
+                    "description": "대상은 자기 자신입니다.",
+                    "short": "자신"
                 },
                 "melee": {
-                    "name": "Melé",
-                    "description": "significa un personaje que está a distancia de contacto del objetivo. Los PJs pueden entrar en contacto con objetivos a un par de pies de ellos, pero el rango de melé puede ser mayor especialmente para PNJs grandes.",
-                    "short": "Melé"
+                    "name": "근접",
+                    "description": "대상은 접촉할 수 있는 거리에 있는 캐릭터입니다. 플레이어 캐릭터는 몇 피트 이내의 대상만 접촉할 수 있지만, 큰 NPC의 경우 근접 거리가 더 길어질 수 있습니다.",
+                    "short": "근접"
                 },
                 "veryClose": {
-                    "name": "Muy cerca",
-                    "description": "significa una distancia donde uno puede ver los pequeños detalles de un objetivo, a escasos pasos, incluso. Esto es normalmente a unos 5-10 pies de distancia. Mientras esté en peligro, un PJ puede llegar a cualquier cosa que esté muy cerca como parte de otra acción que haga. Cualquier cosa en un mapa de batalla que esté dentro de la longitud más corta de una carta de juego (~2-3 pulgadas) puede considerarse muy cerca.",
-                    "short": "M. Cerca"
+                    "name": "매우 가까움",
+                    "description": "대상의 작은 세부사항까지 볼 수 있을 정도의 거리(보통 5~10피트, 몇 걸음 이내)입니다. 위험 상황에서는, 플레이어 캐릭터가 다른 행동의 일부로 매우 가까운 대상에게 도달할 수 있습니다. 전투 지도에서 카드 한 장 길이(~2~3인치) 내에 있는 것은 매우 가까움으로 간주됩니다.",
+                    "short": "매우 가까움"
                 },
                 "close": {
-                    "name": "Cerca",
-                    "description": "significa una distancia donde uno puede ver los detalles importantes de un objetivo (al otro lado de una habitación o en el siguiente puesto del mercado), generalmente a 10-30 pies de distancia. Mientras esté en peligro, un PJ puede llegar a cualquier cosa que esté muy cerca como parte de otra acción que haga. Cualquier cosa en un mapa de batalla que esté dentro de la longitud de un bolígrado o lápiz estándar (~5-6 pulgadas) puede considerarse cerca.",
-                    "short": "Cerca"
+                    "name": "가까움",
+                    "description": "대상의 중요한 세부사항을 볼 수 있는 거리(방 건너편이나 시장의 다른 가판대)로, 보통 10~30피트입니다. 위험 상황에서는, 플레이어 캐릭터가 다른 행동의 일부로 가까운 대상에게 도달할 수 있습니다. 전투 지도에서 연필 한 자루 길이(~5~6인치) 내에 있는 것은 가까움으로 간주됩니다.",
+                    "short": "가까움"
                 },
                 "far": {
-                    "name": "Lejos",
-                    "description": "significa una distancia donde uno puede ver la apariencia de una persona u objeto, pero probablemente no en gran detalle (al otro lado del campo de batalla o un pasillo largo). Esto es, generalmente, a 30-100 pies de distancia. Mientras esté en peligro, un PJ tendrá que hacer una tirada de Agilidad para llegar sano y salvo. Cualquier cosa en un mapa de batalla que esté dentro de la longitud de una hoja de papel (~10-11 pulgadas) puede considerarse lejos.",
-                    "short": "Lejos"
+                    "name": "멂",
+                    "description": "대상의 형태는 볼 수 있지만 세부사항은 잘 보이지 않는 거리(전장 반대편이나 긴 복도 건너편)로, 보통 30~100피트입니다. 위험 상황에서는, 플레이어 캐릭터가 무사히 도달하려면 민첩 굴림을 해야 합니다. 전투 지도에서 종이 한 장 길이(~10~11인치) 내에 있는 것은 먼 거리로 간주됩니다.",
+                    "short": "멂"
                 },
                 "veryFar": {
-                    "name": "Muy lejos",
-                    "description": "significa una distancia donde puedes ver la forma de una persona u objeto, pero no sus detalles (al otro lado de un enorme campo de batalla o al otro lado de una calle larga), generalmente a 100-300 pies. Mientras esté en peligro, un PJ tendrá que hacer una tirada de Agilidad para llegar sano y salvo. Cualquier cosa en un mapa de batalla más allá de distancia lejana, pero aún a la vista de los personajes se puede considerar muy lejos.",
-                    "short": "M. Lejos"
+                    "name": "매우 멂",
+                    "description": "대상의 형태는 볼 수 있지만 세부사항은 보이지 않는 거리(전장의 반대편 끝이나 긴 거리를 둔 도로 건너편)로, 보통 100~300피트입니다. 위험 상황에서는, 플레이어 캐릭터가 무사히 도달하려면 민첩 굴림을 해야 합니다. 전투 지도에서 먼 거리보다 더 멀리 있지만 여전히 시야에 있는 것은 매우 먼 거리로 간주됩니다.",
+                    "short": "매우 멂"
                 }
             },
             "RollTypes": {
                 "trait": {
-                    "name": "Atributo"
+                    "name": "특성 굴림"
                 },
                 "attack": {
-                    "name": "Ataque"
+                    "name": "공격 굴림"
                 },
                 "spellcast": {
-                    "name": "Lanzamiento de conjuro"
+                    "name": "주문시전 굴림"
                 },
                 "diceSet": {
-                    "name": "Conjunto de dados"
+                    "name": "주사위 세트"
                 }
             },
             "RuleChoice": {
-                "off": "Desactivado",
-                "offWithToggle": "Desactivado con interruptor",
-                "on": "Activado",
-                "onWithToggle": "Activado con interruptor"
+                "off": "비활성화",
+                "offWithToggle": "스위치로 비활성화",
+                "on": "활성화",
+                "onWithToggle": "스위치로 활성화"
             },
             "SelectAction": {
-                "selectType": "Seleccionar tipo de acción",
-                "selectAction": "Selección de acción"
+                "selectType": "행동 유형 선택",
+                "selectAction": "행동 선택"
             },
             "TemplateTypes": {
-                "circle": "Círculo",
-                "cone": "Cono",
-                "emanation": "Emanación",
-                "inFront": "En frente",
-                "rect": "Rectángulo",
-                "ray": "Ray"
+                "circle": "원형",
+                "cone": "원뿔형",
+                "emanation": "발산",
+                "inFront": "전방",
+                "rect": "사각형",
+                "ray": "광선"
             },
             "Traits": {
                 "agility": {
-                    "name": "Agilidad",
-                    "short": "AGI",
+                    "name": "민첩",
+                    "short": "민첩",
                     "verb": {
-                        "sprint": "Esprintar",
-                        "leap": "Saltar",
-                        "maneuver": "Maniobrar"
+                        "sprint": "전력질주",
+                        "leap": "도약",
+                        "maneuver": "기동"
                     }
                 },
                 "strength": {
-                    "name": "Fuerza",
-                    "short": "FUE",
+                    "name": "근력",
+                    "short": "근력",
                     "verb": {
-                        "lift": "Levantar",
-                        "smash": "Golpear",
-                        "grapple": "Agarrar"
+                        "lift": "들어올리기",
+                        "smash": "부수기",
+                        "grapple": "붙잡기"
                     }
                 },
                 "finesse": {
-                    "name": "Destreza",
-                    "short": "DES",
+                    "name": "기교",
+                    "short": "기교",
                     "verb": {
-                        "control": "Controlar",
-                        "hide": "Esconderse",
-                        "tinker": "Trastear"
+                        "control": "들어올리기",
+                        "hide": "부수기",
+                        "tinker": "붙잡기"
                     }
                 },
                 "instinct": {
-                    "name": "Instinto",
-                    "short": "INS",
+                    "name": "직감",
+                    "short": "직감",
                     "verb": {
-                        "perceive": "Percibir",
-                        "sense": "Sentir",
-                        "navigate": "Orientarse"
+                        "perceive": "감지하기",
+                        "sense": "느끼기",
+                        "navigate": "길찾기"
                     }
                 },
                 "presence": {
-                    "name": "Presencia",
-                    "short": "PRE",
+                    "name": "매력",
+                    "short": "매력",
                     "verb": {
-                        "charm": "Engatusar",
-                        "perform": "Interpretar",
-                        "deceive": "Engañar"
+                        "charm": "매혹하기",
+                        "perform": "공연하기",
+                        "deceive": "속이기"
                     }
                 },
                 "knowledge": {
-                    "name": "Conocimiento",
-                    "short": "CON",
+                    "name": "지식",
+                    "short": "지식",
                     "verb": {
-                        "recall": "Recordar",
-                        "analyze": "Analizar",
-                        "comprehend": "Comprender"
+                        "recall": "기억하기",
+                        "analyze": "분석하기",
+                        "comprehend": "이해하기"
                     }
                 }
             },
             "WeaponFeature": {
                 "barrier": {
-                    "name": "Barrera",
-                    "description": "Ganas Rango del Arma + 1 al Valor de Armadura; -1 a Evasión",
+                    "name": "방벽",
+                    "description": "무기 티어 +1만큼 방어도를 얻습니다; 회피 -1",
                     "effects": {
                         "barrier": {
-                            "name": "Barrera",
-                            "description": "Ganas Rango del Arma + 1 al Valor de Armadura; -1 a Evasión"
+                            "name": "방벽",
+                            "description": "무기 티어 +1만큼 방어도를 얻습니다; 회피 -1"
                         }
                     }
                 },
                 "bonded": {
-                    "name": "Vinculada",
-                    "description": "Gana un bonificador a las tiradas de daño igual a tu nivel.",
+                    "name": "결속",
+                    "description": "피해 굴림에 캐릭터의 레벨만큼 보너스 획득.",
                     "effects": {
                         "damage": {
-                            "name": "Vínculo",
-                            "description": "Gana un bonificador a las tiradas de daño igual a tu nivel."
+                            "name": "결속",
+                            "description": "피해 굴림에 캐릭터의 레벨만큼 보너스 획득."
                         }
                     }
                 },
                 "bouncing": {
-                    "name": "Rebotante",
-                    "description": "Marca 1 o más Estrés para golpear a ese mismo número de objetivos dentro del alcance del ataque.",
+                    "name": "튕김",
+                    "description": "스트레스를 원하는 만큼 표시해 그 수만큼의 추가 대상을 공격.",
                     "actions": {
                         "bounce": {
-                            "name": "Rebotar",
-                            "description": "Marca 1 o más Estrés para golpear a ese mismo número de objetivos dentro del alcance del ataque."
+                            "name": "튕김",
+                            "description": "스트레스를 원하는 만큼 표시해 그 수만큼의 추가 대상을 공격."
                         }
                     }
                 },
                 "brave": {
-                    "name": "Valiente",
-                    "description": "-1 a Evasión; + Rango del Arma al límite de daño severo",
+                    "name": "용감",
+                    "description": "회피 -1; 무기 티어큼 심각 피해 임계치 +1",
                     "effects": {
                         "brave": {
-                            "name": "Valiente",
-                            "description": "-1 a Evasión; + Rango del Arma al límite de daño severo"
+                            "name": "용감",
+                            "description": "회피 -1; 무기 티어만큼 심각 피해 임계치 +1"
                         }
                     }
                 },
                 "brutal": {
-                    "name": "Brutal",
-                    "description": "Cuando obtienes el máximo valor en el dado de daño tira un dado de daño adicional.",
+                    "name": "잔혹",
+                    "description": "피해 주사위에서 최대 값이 나오면 추가 주사위를 굴림.",
                     "actions": {
                         "addDamage": {
-                            "name": "Brutal",
-                            "description": "Cuando obtienes el máximo valor en el dado de daño tira un dado de daño adicional."
+                            "name": "잔혹",
+                            "description": "피해 주사위에서 최대 값이 나오면 추가 주사위를 굴림."
                         }
                     }
                 },
                 "burning": {
-                    "name": "Ardiente",
-                    "description": "Cuando obtienes un 6 en el dado de daño el objetivo marca un Estrés.",
+                    "name": "화상",
+                    "description": "피해 주사위에서 6이 나오면, 대상은 스트레스를 표시해야 함.",
                     "actions": {
                         "burn": {
-                            "name": "Quemar",
-                            "description": "Cuando obtienes un 6 en el dado de daño el objetivo marca un Estrés."
+                            "name": "화상",
+                            "description": "피해 주사위에서 6이 나오면, 대상은 스트레스를 표시해야 함."
                         }
                     }
                 },
                 "charged": {
-                    "name": "Cargada",
-                    "description": "Marca un Estrés para ganar un +1 a tu Competencia en un ataque con un arma principal.",
+                    "name": "충전",
+                    "description": "스트레스를 표시하여 주 무기 공격에 숙련 +1 보너스",
                     "actions": {
                         "markStress": {
-                            "name": "Carga",
-                            "description": "Marca un Estrés para ganar un +1 a tu Competencia en un ataque con un arma principal."
+                            "name": "충전",
+                            "description": "스트레스를 표시하여 주 무기 공격에 숙련 +1 보너스"
                         }
                     },
                     "effects": {
                         "charged": {
-                            "name": "Cargada",
-                            "description": "Gana un +1 a tu Competencia en un ataque con un arma principal."
+                            "name": "충전",
+                            "description": "주 무기 공격에 숙련 +1 보너스"
                         }
                     }
                 },
@@ -2552,6 +2552,7 @@
         }
     }
 }
+
 
 
 
