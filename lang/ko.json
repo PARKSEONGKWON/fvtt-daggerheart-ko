@@ -426,8 +426,8 @@
                     }
                 },
                 "shortRest": {
-                    "title": "Descanso corto",
-                    "moves": "Movimientos de descanso corto ({current}/{max})",
+                    "title": "긴 휴식",
+                    "moves": "긴 휴식 동작 ({current}/{max})",
                     "tendToWounds": {
                         "name": "상처 치료",
                         "description": "자신을 급히 치료하는 방법을 묘사한 뒤, 1d4 + 자신의 티어만큼의 HP를 회복합니다. 대신 아군을 치료할 수도 있습니다."
@@ -556,96 +556,96 @@
                 "title": "{actor} - 레벨업"
             },
             "MulticlassChoice": {
-                "title": "Multiclase - {actor}",
-                "explanation": "Estás añadiendo {class} como tu multiclase",
-                "selectDomainPrompt": "Selecciona tu nuevo dominio"
+                "title": "멀티클래스 - {actor}",
+                "explanation": "{class}를 멀티클래스로 추가하고 있습니다",
+                "selectDomainPrompt": "새로운 권역을 선택하세요"
             },
             "OwnershipSelection": {
-                "title": "Selección de permisos - {name}",
-                "default": "Permisos por defecto"
+                "title": "권한 선택 - {name}",
+                "default": "기본 권한"
             },
             "ReactionRoll": {
-                "title": "Tirada de Reacción: {trait}"
+                "title": "대응 굴림: {특성}"
             },
             "RerollDialog": {
-                "title": "Reroll",
-                "deselectDiceNotification": "Deselect one of the selected dice first",
-                "acceptCurrentRolls": "Accept Current Rolls"
+                "title": "재굴림",
+                "deselectDiceNotification": "선택된 주사위 중 하나를 먼저 선택 해제하세요t",
+                "acceptCurrentRolls": "현재 굴림 유지"
             },
             "ResourceDice": {
-                "title": "Recurso {name}",
-                "rerollDice": "Volver a tirar"
+                "title": "자원 {name}",
+                "rerollDice": "다시 굴리기"
             }
         },
         "CLASS": {
             "Feature": {
-                "rallyDice": "Dado de inspiración bárdica",
-                "short": "Inspirar"
+                "rallyDice": "바드의 격려 주사위",
+                "short": "격려"
             }
         },
         "CONFIG": {
             "ActionType": {
-                "passive": "Pasiva",
-                "action": "Acción",
-                "reaction": "Reacción"
+                "passive": "상시",
+                "action": "행동",
+                "reaction": "대응"
             },
             "AdversaryTrait": {
                 "relentless": {
-                    "name": "Implacable",
-                    "description": "Un adversario con Implacable puede activarse hasta X veces durante un movimiento de DJ siempre y cuando queden contadores de Implacable disponibles.",
-                    "tip": "El movimiento de Implacable es útil si quieres activar a un adversario más de una vez en un solo movimiento de DJ. Esta opción es la mejor para los adversarios más rápidos o peligrosos, o para adversarios que lucharan contra el grupo sin ayuda."
+                    "name": "집요함",
+                    "description": "GM의 차례마다 최대 X번까지 주목받을 수 있습니다. 일반적인 경우처럼 공포를 소모하여 주목 할 수 있습니다.",
+                    "tip": "집요함 동작은 적대자를 한 번의 GM 동작에서 여러 번 주목하고 싶을 때 유용합니다. 이 선택지는 더 빠르거나 위험한 적대자, 혹은 혼자서 파티와 싸우는 적대자에게 가장 적합합니다."
                 },
                 "slow": {
-                    "_name": "Slow",
-                    "_description": "A foe with Slow costs X action tokens to activate.",
-                    "_tip": "The Slow move is useful if you want an adversary who narratively takes longer to act than others, like a slug creature or a massive ogre. This is usually most effective when that creature is very powerful when it does act, but eats up lots of action tokens to do it."
+                    "_name": "느림보",
+                    "_description": "느림보 기능을 가진 적대자는 활성화하는 데 X 행동 토큰이 필요합니다.",
+                    "_tip": "느림 동작은 다른 적대자들보다 서사적으로 행동하는 데 시간이 더 오래 걸리는 생물(거대한 오우거, 달팽이 같은 괴물)을 표현하고 싶을 때 유용합니다. 이들은 행동할 때 매우 강력하지만, 주목하려면 많은 행동 기회를 소모합니다."
                 },
                 "minion": {
-                    "_name": "Minion",
-                    "_description": "For every X damage a PC deals to this adversary, they also deal 1 HP to an additional minion within their attack’s range.",
-                    "_tip": "The Minion move is useful when you want to drop lots of small enemies into the battlefield, knowing the party can swing through them very easily. This move means that if a PC hits one minion and they do enough damage, they also hit a number of others that are in range for them. Because of this, it’s often best to have minions crowd a PC–it will feel overwhelming and dangerous until they’re able to make an attack against them. If you want that cinematic feeling of the PCs taking out waves of enemies with a single attack roll, minions are a great tool to make that happen."
+                    "_name": "졸개",
+                    "_description": "이 적대자는 어떤 피해든 받으면 즉시 쓰러집니다. PC가 이 적대자에게 X 피해를 가할 때마다, 그 공격에 도달할 수 있는 거리 내의 다른 졸개 하나도 추가로 쓰러집니다.",
+                    "_tip": "‘졸개’ 동작은 전투에 다수의 약한 적을 투입하고 싶을 때 유용합니다. 파티가 쉽게 처치할 수 있도록 설계되었지만, 한 졸개를 공격해 충분한 피해를 주면 그 범위 내의 다른 졸개도 함께 피해를 입습니다. 따라서 졸개들이 PC를 둘러싸도록 배치하는 것이 효과적입니다. 처음에는 압도적으로 느껴지지만, 공격을 가하면 마치 영화처럼 한 번의 공격 굴림으로 여러 적을 쓸어버릴 수 있습니다."
                 }
             },
             "AdversaryType": {
                 "bruiser": {
-                    "label": "Matón",
-                    "description": "Adversarios duros con ataques poderosos."
+                    "label": "돌격형",
+                    "description": "강인하고 강력한 공격을 가하는 적대자."
                 },
                 "horde": {
-                    "label": "Horda",
-                    "description": "Una horda representa un número de enemigos actuando como un solo grupo."
+                    "label": "무리",
+                    "description": "무리는 여러 적들이 하나의 집단으로 행동하는 것을 나타냅니다."
                 },
                 "leader": {
-                    "label": "Líder",
-                    "description": "Adversarios que comandan e invocan a otros adversarios."
+                    "label": "지휘관",
+                    "description": "다른 적대자를 지휘하거나 소환하는 적대자."
                 },
                 "minion": {
-                    "label": "Esbirro",
-                    "description": "Enemigos básicos que son despachados fácilmente, pero peligrosos con los números suficientes."
+                    "label": "졸개",
+                    "description": "쉽게 처치되지만, 충분한 수가 모이면 위험해지는 기본 적."
                 },
                 "ranged": {
-                    "label": "Tirador",
-                    "description": "Adversarios que atacan a distancia."
+                    "label": "사격형",
+                    "description": "원거리에서 공격하는 적대자."
                 },
                 "skulk": {
-                    "label": "Acechador",
-                    "description": "Adversarios que maniobran y aprovechan las oportunidades para emboscar a sus oponentes."
+                    "label": "매복형",
+                    "description": "기회를 노려 상대를 매복 공격하는 적대자."
                 },
                 "social": {
-                    "label": "Social",
-                    "description": "Adversarios que son principalmente amenazas interpresonales o retos."
+                    "label": "사회형",
+                    "description": "주로 인간관계적 위협이나 도전을 제시하는 적대자."
                 },
                 "solo": {
-                    "label": "Individual",
-                    "description": "Diseñados para presentar un desafío a un grupo entero."
+                    "label": "단독형",
+                    "description": "전체 파티에게 도전 과제를 제시하도록 설계된 적대자."
                 },
                 "standard": {
-                    "label": "Estándar",
-                    "description": "Enemigos básicos, tropas de línea."
+                    "label": "일반형",
+                    "description": "기본적인 적, 전열 병력."
                 },
                 "support": {
-                    "label": "Soporte",
-                    "description": "Enemigos que mejoran a sus aliados y/o interfieren contra sus oponentes."
+                    "label": "지원형",
+                    "description": "아군을 강화하거나 적을 방해하는 적대자."
                 }
             },
             "ArmorFeature": {
@@ -2552,6 +2552,7 @@
         }
     }
 }
+
 
 
 
