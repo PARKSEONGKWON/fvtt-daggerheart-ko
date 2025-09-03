@@ -292,268 +292,324 @@
                 "tabs": {
                     "ancestry": "유산",
                     "community": "공동체",
-                    "class": "Clase",
-                    "experience": "Experiencia",
-                    "traits": "Atributos",
-                    "domainCards": "Cartas de dominio",
-                    "equipment": "Equipo"
+                    "class": "클래스",
+                    "experience": "경험",
+                    "traits": "특성",
+                    "domainCards": "권역 카드",
+                    "equipment": "장비                       }
+                    },
+                    "evasion": {
+                        "value": {
+                            "label": "회피"
+                        }
+                    },
+                    "partner": {
+                        "label": "파트너"
+                    },
+                    "resources": {
+                        "stress": {
+                            "value": {
+                                "label": "스트레스"
+                            },
+                            "currentStress": {
+                                "label": "현재 스트레스"
+                            },
+                            "maxStress": {
+                                "label": "최대 스트레스"
+                            }
+                        }
+                    }
                 },
-                "ancestryNamePlaceholder": "El nombre de tu linaje",
-                "buttonTitle": "Configuración del personaje",
-                "choice": "Elección",
-                "finishCreation": "Finalizar configuración del personaje",
-                "heritage": "Legado",
-                "initialExperiences": "Experiencias iniciales",
-                "mixedAncestry": "Linaje mixto",
-                "newExperience": "Nueva experiencia...",
-                "selectAncestry": "Seleccionar Linaje",
-                "selectPrimaryAncestry": "Seleccionar Linaje primario",
-                "selectSecondaryAncestry": "Seleccionar Linaje secundario",
-                "selectArmor": "Seleccionar Armadura",
-                "selectClass": "Seleccionar Clase",
-                "selectCommunity": "Seleccionar Comunidad",
-                "selectPrimaryWeapon": "Seleccionar Arma Principal",
-                "selectSecondaryWeapon": "Seleccionar Arma Secundaria",
-                "selectSubclass": "Seleccionar Subclase",
-                "startingItems": "Objetos iniciales",
-                "story": "Historia",
-                "suggestedArmor": "Armarura sugerida",
-                "suggestedPrimaryWeapon": "Arma principal sugerida",
-                "suggestedSecondaryWeapon": "Arma secundaria sugerida",
-                "suggestedTraits": "Atributos sugeridos",
-                "suggestedWeapons": "Arma sugerida",
-                "title": "{actor} - Configurar personaje",
-                "traitIncreases": "Incrementos de atributos"
+                "noPartner": "파트너가 선택되지 않았습니다."
+            },
+            "Environment": {
+                "FIELDS": {
+                    "description": {
+                        "label": "설명"
+                    },
+                    "difficulty": {
+                        "label": "난이도"
+                    },
+                    "impulses": {
+                        "label": "충동"
+                    },
+                    "tier": {
+                        "label": "티어"
+                    },
+                    "type": {
+                        "label": "유형"
+                    }
+                },
+                "newAdversary": "새로운 적대자"
+            }
+        },
+        "APPLICATIONS": {
+            "CharacterCreation": {
+                "tabs": {
+                    "ancestry": "유산",
+                    "community": "공동체",
+                    "class": "클래스",
+                    "experience": "경험",
+                    "traits": "특성",
+                    "domainCards": "권역 카드",
+                    "equipment": "장비"
+                },
+                "ancestryNamePlaceholder": "당신의 유산 이름",
+                "buttonTitle": "캐릭터 설정",
+                "choice": "선택",
+                "finishCreation": "캐릭터 설정 완료",
+                "heritage": "유산",
+                "initialExperiences": "초기 경험",
+                "mixedAncestry": "혼혈",
+                "newExperience": "새로운 경험...",
+                "selectAncestry": "유산 선택",
+                "selectPrimaryAncestry": "주 혈통 선택",
+                "selectSecondaryAncestry": "보조 혈통 선택",
+                "selectArmor": "방어구 선택",
+                "selectClass": "직업 선택",
+                "selectCommunity": "공동체 선택",
+                "selectPrimaryWeapon": "주 무기 선택",
+                "selectSecondaryWeapon": "보조 무기 선택",
+                "selectSubclass": "서브 클래스 선택",
+                "startingItems": "시작 아이템",
+                "story": "이야기",
+                "suggestedArmor": "추천 방어구",
+                "suggestedPrimaryWeapon": "추천 주 무기",
+                "suggestedSecondaryWeapon": "추천 보조 무기",
+                "suggestedTraits": "추천 특성",
+                "suggestedWeapons": "추천 무기",
+                "title": "{actor} - 캐릭터 설정",
+                "traitIncreases": "특성 증가"
             },
             "CombatTracker": {
-                "combatStarted": "Activo",
-                "giveSpotlight": "Dar el Foco",
-                "requestingSpotlight": "Pidiendo el Foco",
-                "requestSpotlight": "Pedir el foco",
-                "openCountdowns": "Contadores"
+                "combatStarted": "전투 시작됨",
+                "giveSpotlight": "주목 부여",
+                "requestingSpotlight": "주목 요청 중",
+                "requestSpotlight": "주목 요청",
+                "openCountdowns": "카운트다운 열기"
             },
             "ContextMenu": {
-                "disableEffect": "Deshabilitar Efecto",
-                "enableEffect": "Habilitar Efecto",
-                "equip": "Equipar",
-                "sendToChat": "Mandar al chat",
-                "toLoadout": "Mandar a la mano",
-                "toVault": "Mandar al depósito",
-                "unequip": "Desequipar",
-                "useItem": "Usar Objeto"
+                "disableEffect": "효과 비활성화",
+                "enableEffect": "효과 활성화",
+                "equip": "장착",
+                "sendToChat": "채팅에 보내기",
+                "toLoadout": "장비로 보내기",
+                "toVault": "보관소로 보내기",
+                "unequip": "장비 해제",
+                "useItem": "아이템 사용"
             },
             "Countdown": {
-                "addCountdown": "Añadir contador",
+                "addCountdown": "카운트다운 추가",
                 "FIELDS": {
                     "countdowns": {
                         "element": {
                             "name": {
-                                "label": "Nombre"
+                                "label": "이름"
                             },
                             "progress": {
                                 "current": {
-                                    "label": "Actual"
+                                    "label": "현재"
                                 },
                                 "max": {
-                                    "label": "Máx"
+                                    "label": "최대"
                                 },
                                 "type": {
                                     "label": {
-                                        "label": "Etiqueta",
-                                        "hint": "Usado para personalizado"
+                                        "label": "라벨",
+                                        "hint": "사용자 지정에 사용됨"
                                     },
                                     "value": {
-                                        "label": "Valor"
+                                        "label": "값"
                                     }
                                 }
                             }
                         }
                     }
                 },
-                "newCountdown": "Nuevo contador",
-                "openOwnership": "Editar acceso de jugadores",
-                "removeCountdownText": "¿Seguro que quieres borrar el contador: {name}?",
-                "removeCountdownTitle": "Eliminar contador",
-                "title": "Contadores de {type}",
-                "toggleSimple": "Alternar Vista Simple",
+                "newCountdown": "새 카운트다운",
+                "openOwnership": "플레이어 접근 권한 편집",
+                "removeCountdownText": "정말로 카운트다운 {name}을(를) 삭제하시겠습니까?",
+                "removeCountdownTitle": "카운트다운 삭제",
+                "title": "{type} 카운트다운",
+                "toggleSimple": "간단 보기 전환",
                 "types": {
-                    "narrative": "Narrativa",
-                    "encounter": "Encuentro"
+                    "narrative": "서사",
+                    "encounter": "조우"
                 }
             },
             "DeleteConfirmation": {
-                "title": "Borrar {type} - {name}",
-                "text": "¿Seguro que quieres borrar {name}?"
+                "title": "{type} - {name} 삭제",
+                "text": "정말로 {name}을(를) 삭제하시겠습니까?"
             },
             "DamageReduction": {
-                "armorMarks": "Marcas de armadura",
-                "armorWithStress": "Gasta 1 Estrés para usar una marca extra",
-                "thresholdImmunities": "Inmunidades de Límite",
-                "stress": "Estrés",
-                "stressReduction": "Reducir con Estrés",
-                "title": "Reducción del daño",
-                "unncessaryStress": "No necesitas gastar Estrés",
-                "usedMarks": "Marcas usadas"
+                "armorMarks": "방어 슬롯 표시",
+                "armorWithStress": "스트레스를 표시하여 추가 방어 슬롯 표시",
+                "thresholdImmunities": "임계치 면역",
+                "stress": "스트레스",
+                "stressReduction": "스트레스 경감",
+                "title": "피해 경감",
+                "unncessaryStress": "스트레스를 표시할 필요가 없습니다",
+                "usedMarks": "표시하기"
             },
             "DeathMove": {
-                "selectMove": "Seleccionar movimiento",
-                "takeMove": "Hacer Movimiento de Muerte",
-                "title": "{actor} - Movimiento de Muerte"
+                "selectMove": "동작 선택",
+                "takeMove": "죽음 동작 수행",
+                "title": "{actor} - 죽음 동작"
             },
             "Downtime": {
                 "longRest": {
-                    "title": "Descanso largo",
-                    "moves": "Movimientos de descanso largo ({current}/{max})",
+                    "title": "긴 휴식",
+                    "moves": "긴 휴식 동작 ({current}/{max})",
                     "clearStress": {
-                        "description": "Describe cómo te desahogas o te calmas y elimina todo el estrés marcado.",
-                        "name": "Eliminar estrés"
+                        "description": "긴장을 풀거나 마음을 가다듬는 방법을 묘사한 뒤, 스트레스를 모두 제거합니다.",
+                        "name": "스트레스 제거"
                     },
                     "prepare": {
-                        "description": "Describe cómo te preparas para la aventura del día siguiente y gana un punto de Esperanza. Si eliges prepararte con uno o más compañeros del grupo cada uno recibís dos puntos de esperanza.",
-                        "name": "Preparar"
+                        "description": "다음 날의 모험을 준비하는 방법을 묘사한 뒤, 희망을 얻습니다. 파티의 다른 구성원과 함께 준비를 선택하면, 각자가 희망 2를 얻습니다.",
+                        "name": "준비"
                     },
                     "repairArmor": {
-                        "description": "Describe cómo pasas tiempo reparando tu armadura y elimina todos los espacios de armadura gastados. Puedes elegir hacer esto para la armadura de un aliado.",
-                        "name": "Reparar armadura"
+                        "description": "방어구를 수리하는 방법을 묘사한 뒤, 방어 슬롯을 모두 회복합니다. 대신 아군의 방어구를 수리할 수도 있습니다.",
+                        "name": "방어구 수리"
                     },
                     "tendToWounds": {
-                        "description": "Describe cómo tratas tus heridas y elimina todos los Puntos de Golpe marcados. Puedes elegir hacer esto para un aliado.",
-                        "name": "Atender heridas"
+                        "description": "자신을 치료하는 방법을 묘사한 뒤, HP를 모두 회복합니다. 대신 아군을 치료할 수도 있습니다.",
+                        "name": "상처 치료"
                     },
                     "workOnAProject": {
-                        "description": "Establece o continua el trabajando en un proyecto.",
-                        "name": "Trabajar en un proyecto"
+                        "description": "장기 계획을 새로 시작하거나 이어서 진행합니다.",
+                        "name": "장기 계획 진행"
                     }
                 },
                 "shortRest": {
                     "title": "Descanso corto",
                     "moves": "Movimientos de descanso corto ({current}/{max})",
                     "tendToWounds": {
-                        "name": "Atender heridas",
-                        "description": "Describe cómo tratas rápidamente tus heridas, luego elimina un número de heridas igual a 1d4 + tu rango. Puedes elegir hacer esto para un aliado."
+                        "name": "상처 치료",
+                        "description": "자신을 급히 치료하는 방법을 묘사한 뒤, 1d4 + 자신의 티어만큼의 HP를 회복합니다. 대신 아군을 치료할 수도 있습니다."
                     },
                     "clearStress": {
-                        "name": "Eliminar estrés",
-                        "description": "Describe cómo te desahogas o te calmas, luego elimina Estrés igual a 1d4 + tu rango."
+                        "name": "스트레스 제거",
+                        "description": "긴장을 풀거나 마음을 가다듬는 방법을 묘사한 뒤, 1d4 + 자신의 티어만큼의 스트레스를 제거합니다."
                     },
                     "repairArmor": {
-                        "name": "Reparar armadura",
-                        "description": "Describe cómo reparas rápidamente tu armadura, luego elimina un número de espacios de armadura igual a 1d4 + tu rango. Puedes elegir hacer esto sobre la armadura de un aliado."
+                        "name": "방어구 수리",
+                        "description": "자신의 방어구를 빠르게 수리하는 방법을 묘사한 뒤, 1d4 + 자신의 티어만큼의 방어 슬롯을 회복합니다. 대신 아군의 방어구를 수리할 수도 있습니다."
                     },
                     "prepare": {
-                        "name": "Preparar",
-                        "description": "Describe cómo te preparas para el camino que tienes delante, luego gana 1 punto de Esperanza. Si eliges prepararte con uno o más miembros del grupo cada personaje gana 2 puntos de Esperanza."
+                        "name": "준비",
+                        "description": "앞으로의 여정을 준비하는 방법을 묘사한 뒤, 희망을 얻습니다. 파티의 다른 구성원과 함께 준비를 선택하면, 각자가 희망 2를 얻습니다."
                     }
                 },
                 "refreshable": {
-                    "title": "Recursos refrescables"
+                    "title": "갱신 가능한 자원"
                 },
-                "takeDowntime": "Realizar descanso"
+                "takeDowntime": "휴식 취하기"
             },
             "HUD": {
                 "tokenHUD": {
-                    "genericEffects": "Efectos de Foundry"
+                    "genericEffects": "파운더리 효과"
                 }
             },
             "Levelup": {
                 "actions": {
                     "creatureComfort": {
-                        "name": "Reconfortante",
-                        "description": "Una vez por descanso, cuando te tomas tiempo en un momento tranquilo para dedicar atención a tu compañero, puedes ganar 1 punto de Esperanza o ambos eliminar un Estrés."
+                        "name": "위안이 되는 존재",
+                        "description": "휴식마다 한 번, 조용한 순간에 동료에게 애정과 관심을 기울이면, 희망을 1 얻거나 둘 다 스트레스를 1 제거할 수 있습니다."
                     },
                     "armored": {
-                        "name": "Acorazado",
-                        "description": "Cuando tu compañero recibe daño puedes marcar uno de tus espacios de armadura en lugar de marcar uno de sus espacios de estrés."
+                        "name": "무장",
+                        "description": "동료가 피해를 입을 때, 동료의 스트레스 슬롯 대신 자신의 방어 슬롯 하나를 표시할 수 있습니다."
                     },
                     "bonded": {
-                        "name": "Unido",
-                        "description": "Cuando marcas tu último Punto de Golpe tu compañero corre a tu lado a reconfortarte. Tira un número de d6 igual a los espacios de estrés no marcados de tu compañero y márcalos. Si algún dado es un 6 tu compañero te ayuda a levantarte. Elimina tu último punto de golpe y vuelve a la escena."
+                        "name": "유대감",
+                        "description": "당신이 마지막 HP를 표시하면, 동료가 당신 곁으로 달려와 위로합니다. 동료가 표시하지 않은 스트레스 슬롯 수만큼 d6을 굴리고 그 슬롯들을 표시합니다. 만약 6이 하나라도 나오면, 동료가 당신을 일으켜 세웁니다. 마지막 HP를 회복하고 장면으로 복귀합니다."
                     }
                 },
                 "choiceDescriptions": {
-                    "attributes": "Gana un +1 a dos atributos del personaje no marcados y márcalos.",
-                    "hitPointSlots": "Gana un espacio de Punto de Golpe permanentemente.",
-                    "stressSlots": "Gana un espacio de Punto de Estrés permanentemente.",
-                    "experiences": "Gana un +1 a dos experiencias permanentemente.",
-                    "domainCard": "Elige un una carta de dominio adicional de tu nivel o menor de un dominio al que tengas acceso (hasta nivel {maxLevel})",
-                    "evasion": "Gana un +1 a tu Evasión permanentemente.",
-                    "proficiency": "Incrementa tu Competencia en 1.",
-                    "subclass": "Obtén una carta mejorada de subclase. Entonces tacha la opción de multiclase para este rango.",
-                    "multiclass": "Multiclase: Elige una clase adicional para tu personaje, entonces tacha un “Obtén una carta mejorada de subclase” sin usar y la otra opción de multiclase de esta ficha."
+                    "attributes": "표시되지 않은 캐릭터 특성 두 개를 +1 올리고 표시합니다.",
+                    "hitPointSlots": "영구적으로 HP 슬롯을 1개 얻습니다.",
+                    "stressSlots": "영구적으로 스트레스 슬롯을 1개 얻습니다.",
+                    "experiences": "영구적으로 경험 2개를 +1 올립니다.",
+                    "domainCard": "접근 가능한 권역에서 현재 레벨 이하의 추가 권역 카드를 1장 선택합니다(최대 {maxLevel} 레벨까지).",
+                    "evasion": "영구적으로 회피를 +1 올립니다.",
+                    "proficiency": "숙련을 1 올립니다.",
+                    "subclass": "서브 클래스의 강화 카드를 얻습니다. 그 후 이 티어의 멀티클래스 선택지를 지웁니다.",
+                    "multiclass": "멀티클래스: 캐릭터에게 추가 클래스를 선택합니다. 그 후 사용하지 않은 ‘서브 클래스 강화 카드 획득’과 다른 멀티클래스 선택지를 지웁니다."
                 },
                 "delevel": {
-                    "content": "Volver al nivel anterior eliminará todas las elecciones hechas para este nivel. ¿Quieres seguir adelante?",
-                    "title": "Volver al nivel anterior"
+                    "content": "이전 레벨로 돌아가면 해당 레벨에서 한 모든 선택이 삭제됩니다. 계속하시겠습니까?",
+                    "title": "이전 레벨로 돌아가기"
                 },
-                "navigateLevel": "A nivel {level}",
-                "navigateToLevelup": "Volver a subida de nivel",
-                "navigateToSummary": "A resumen",
+                "navigateLevel": "{level} 레벨로 이동",
+                "navigateToLevelup": "레벨업으로 돌아가기",
+                "navigateToSummary": "요약으로 이동",
                 "options": {
-                    "trait": "Gana un +1 a dos atributos del personaje no marcados y márcalos.",
-                    "hitPoint": "Gana un espacio de Punto de Golpe permanentemente.",
-                    "stress": "Gana un espacio de Punto de Estrés permanentemente.",
-                    "experience": "Gana un +1 a dos experiencias permanentemente.",
-                    "domainCard": "Elige un una carta de dominio adicional de tu nivel o menor de un dominio al que tengas acceso (hasta nivel {maxLevel})",
-                    "evasion": "Gana un +1 a tu Evasión permanentemente.",
-                    "subclass": "Obtén una carta mejorada de subclase. Entonces tacha la opción de multiclase para este rango.",
-                    "proficiency": "Incrementa tu Competencia en 1.",
-                    "multiclass": "Multiclase: Elige una clase adicional para tu personaje, entonces tacha un “Obtén una carta mejorada de subclase” sin usar y la otra opción de multiclase de esta ficha.",
-                    "intelligent": "Tu compañero gana un +1 permanentemente a una Experiencia de Compañero de tu elección.",
-                    "lightInTheDark": "Gana un espacio adicional de Esperanza para tu personaje.",
-                    "creatureComfort": "Una vez por descanso, cuando te tomas tiempo en un momento tranquilo para dedicar atención a tu compañero, puedes ganar 1 punto de Esperanza o ambos eliminar un Estrés.",
-                    "armored": "Cuando tu compañero recibe daño puedes marcar uno de tus espacios de armadura en lugar de marcar uno de sus espacios de estrés.",
-                    "vicious": "Incrementa los dados de daño de tu compañero o alcance en uno (d6 a d8, Cercano a Lejano, etc.)",
-                    "resilient": "Tu compañero gana un espacio de Estrés adicional.",
-                    "bonded": "Cuando marcas tu último Punto de Golpe tu compañero corre a tu lado a reconfortarte. Tira un número de d6 igual a los espacios de estrés no marcados de tu compañero y márcalos. Si algún dado es un 6 tu compañero te ayuda a levantarte. Elimina tu último punto de golpe y vuelve a la escena.",
-                    "aware": "Tu compañero gana un +2 permanente a su Evasión."
+                    "trait": "표시되지 않은 캐릭터 특성 두 개를 +1 올리고 표시합니다.",
+                    "hitPoint": "영구적으로 HP 슬롯을 1개 얻습니다.",
+                    "stress": "영구적으로 스트레스 슬롯을 1개 얻습니다.",
+                    "experience": "영구적으로 경험 2개를 +1 올립니다.",
+                    "domainCard": "접근 가능한 권역에서 현재 레벨 이하의 추가 권역 카드를 1장 선택합니다(최대 {maxLevel} 레벨까지).",
+                    "evasion": "영구적으로 회피를 +1 올립니다.",
+                    "subclass": "서브 클래스의 강화 카드를 얻습니다. 그 후 이 티어의 멀티클래스 선택지를 지웁니다.",
+                    "proficiency": "숙련을 1 올립니다.",
+                    "multiclass": "멀티클래스: 캐릭터에게 추가 클래스를 선택합니다. 그 후 사용하지 않은 ‘서브 클래스 강화 카드 획득’과 다른 멀티클래스 선택지를 지웁니다.",
+                    "intelligent": "동료는 당신이 선택한 동료 경험에 영구적으로 +1 보너스를 얻습니다.",
+                    "lightInTheDark": "캐릭터가 희망 슬롯을 1개 추가로 얻습니다.",
+                    "creatureComfort": "휴식마다 한 번, 조용한 순간에 동료에게 애정과 관심을 기울이면, 희망을 1 얻거나 둘 다 스트레스를 1 제거할 수 있습니다",
+                    "armored": "동료가 피해를 입을 때, 동료의 스트레스 슬롯 대신 자신의 방어 슬롯 하나를 표시할 수 있습니다.",
+                    "vicious": "동료의 피해 주사위나 거리를 한 단계 증가시킵니다(d6에서 d8로, 가까움에서 멂으로 등).",
+                    "resilient": "동료가 스트레스 슬롯을 1개 추가로 얻습니다.",
+                    "bonded": "당신이 마지막 HP를 표시하면, 동료가 당신 곁으로 달려와 위로합니다. 동료가 표시하지 않은 스트레스 슬롯 수만큼 d6을 굴리고 그 슬롯들을 표시합니다. 만약 6이 하나라도 나오면, 동료가 당신을 일으켜 세웁니다. 마지막 HP를 회복하고 장면으로 복귀합니다.",
+                    "aware": "동료가 영구적으로 회피 +2를 얻습니다."
                 },
                 "selections": {
-                    "emptyDomainCardHint": "{domain} de nivel {level} o inferior",
-                    "viciousDamage": "Daño",
-                    "viciousRange": "Alcance"
+                    "emptyDomainCardHint": "{domain} {level} 레벨 이하",
+                    "viciousDamage": "피해",
+                    "viciousRange": "거리"
                 },
                 "summary": {
-                    "levelAchievements": "Logros del nivel",
-                    "levelAdvancements": "Avances del nivel",
-                    "proficiencyIncrease": "Competencia incrementada: {proficiency}",
-                    "hpIncrease": "Puntos de golpe incrementados: {hitPoints}",
-                    "stressIncrease": "Estrés incrementado: {stress}",
-                    "evasionIncrease": "Evasión incrementada: {evasion}",
-                    "damageThresholdMajorIncrease": "Mayor: {threshold}",
-                    "damageThresholdSevereIncrease": "Severo: {threshold}",
-                    "newExperiences": "Nuevas experiencias",
-                    "experiencePlaceholder": "Una nueva experiencia.",
-                    "domainCards": "Cartas de dominio",
-                    "subclass": "Subclase",
-                    "multiclass": "Multiclase",
-                    "traits": "Atributos incrementados",
-                    "experienceIncreases": "Experiencia incrementada",
-                    "damageThresholds": "Límites de daño",
-                    "vicious": "Feroz",
-                    "damageIncreased": "Daño incrementado: {damage}",
-                    "rangeIncreased": "Alcance incrementado: {range}",
-                    "simpleFeature": "Rasgo: {feature}"
+                    "levelAchievements": "레벨 달성",
+                    "levelAdvancements": "레벨 상승",
+                    "proficiencyIncrease": "숙련 증가: {proficiency}",
+                    "hpIncrease": "HP 증가: {hitPoints}",
+                    "stressIncrease": "스트레스 증가: {stress}",
+                    "evasionIncrease": "회피 증가: {evasion}",
+                    "damageThresholdMajorIncrease": "중상: {threshold}",
+                    "damageThresholdSevereIncrease": "심각: {threshold}",
+                    "newExperiences": "새로운 경험",
+                    "experiencePlaceholder": "새로운 경험",
+                    "domainCards": "권역 카드",
+                    "subclass": "서브 클래스",
+                    "multiclass": "멀티클래스",
+                    "traits": "특성 증가",
+                    "experienceIncreases": "경험 증가",
+                    "damageThresholds": "피해 임계치",
+                    "vicious": "흉포",
+                    "damageIncreased": "피해 증가: {damage}",
+                    "rangeIncreased": "거리 증가: {range}",
+                    "simpleFeature": "기능: {feature}"
                 },
-                "takeLevelUp": "Finalizar subida de nivel",
+                "takeLevelUp": "레벨업 완료",
                 "tier2": {
-                    "label": "Niveles 2-4",
-                    "infoLabel": "Al nivel 2 ganas una Experiencia adicional a +2 y un bono de +1 a tu Competencia.",
-                    "pretext": "Elige dos opciones de la siguiente lista",
-                    "posttext": "Obtienes una carta de dominio a dicional de tu nivel o inferior de un dominio al que tengas acceso."
+                    "label": "2~4 레벨",
+                    "infoLabel": "2레벨에서 추가 경험과 숙련 +1을 얻습니다.",
+                    "pretext": "다음 목록에서 두 가지 선택",
+                    "posttext": "접근 가능한 권역에서 현재 레벨 이하의 권역 카드를 1장 얻습니다."
                 },
                 "tier3": {
-                    "label": "Niveles 5-7",
-                    "infoLabel": "Al nivel 5 obtienes una Experiencia adicional y elimina todas las marcas en los Atributos del personaje.",
-                    "pretext": "Cuando subes de nivel anótalo en tu ficha y elige dos de la siguiente lista o un rango previo sin marcar.",
-                    "posttext": "Obtienes una carta de dominio a dicional de tu nivel o inferior de un dominio al que tengas acceso."
+                    "label": "5~7 레벨",
+                    "infoLabel": "5레벨에서 추가 경험을 얻고, 캐릭터 특성의 모든 표시를 지웁니다.",
+                    "pretext": "레벨업을 기록하고, 아래 목록에서 두 가지 또는 표시되지 않은 이전 티어 혜택을 선택합니다.",
+                    "posttext": "접근 가능한 권역에서 현재 레벨 이하의 권역 카드를 1장 얻습니다."
                 },
                 "tier4": {
-                    "label": "Niveles 8-10",
-                    "infoLabel": "Al nivel 8 obtienes una Experiencia adicional y elimina todas las marcas en los Atributos del personaje.",
-                    "pretext": "Cuando subes de nivel anótalo en tu ficha y elige dos de la siguiente lista o un rango previo sin marcar.",
-                    "posttext": "Obtienes una carta de dominio a dicional de tu nivel o inferior de un dominio al que tengas acceso."
+                    "label": "8~10 레벨",
+                    "infoLabel": "8레벨에서 추가 경험을 얻고, 캐릭터 특성의 모든 표시를 지웁니다.",
+                    "pretext": "레벨업을 기록하고, 아래 목록에서 두 가지 또는 표시되지 않은 이전 티어 혜택을 선택합니다.",
+                    "posttext": "접근 가능한 권역에서 현재 레벨 이하의 권역 카드를 1장 얻습니다."
                 },
-                "title": "Subida de nivel de {actor}"
+                "title": "{actor} - 레벨업"
             },
             "MulticlassChoice": {
                 "title": "Multiclase - {actor}",
@@ -2552,4 +2608,5 @@
         }
     }
 }
+
 
