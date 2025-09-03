@@ -710,158 +710,158 @@
                     }
                 },
                 "heavy": {
-                    "name": "Pesada",
-                    "description": "-1 a Evasión",
+                    "name": "중량",
+                    "description": "회피 -1",
                     "effects": {
                         "heavy": {
-                            "name": "Pesada",
-                            "description": "-1 a Evasión"
+                            "name": "중량",
+                            "description": "회피 -1"
                         }
                     }
                 },
                 "hopeful": {
-                    "name": "Esperanzadora",
-                    "description": "Cuando vayas a gastar Esperanza puedes marcar un espacio de armadura en su lugar.",
+                    "name": "희망적",
+                    "description": "희망을 소모할 때, 대신 방어 슬롯을 표시할 수 있음.",
                     "actions": {
                         "hope": {
-                            "name": "Esperanza",
-                            "description": "Cuando vayas a gastar Esperanza puedes marcar un espacio de armadura en su lugar."
+                            "name": "희망적",
+                            "description": "희망을 소모할 때, 대신 방어 슬롯을 표시할 수 있음."
                         }
                     }
                 },
                 "impenetrable": {
-                    "name": "Impenetrable",
-                    "description": "Una vez por descanso corto, cuando vayas a marcar tu último Punto de Golpe, puedes marcar un Estrés en su lugar.",
+                    "name": "불멸",
+                    "description": "짧은 휴식 당 1회, 마지막 HP를 표시해야 할 때 대신 스트레스를 표시할 수 있음.",
                     "actions": {
                         "impenetrable": {
-                            "name": "Impenetrable",
-                            "description": "Una vez por descanso corto, cuando vayas a marcar tu último Punto de Golpe, puedes marcar un Estrés en su lugar."
+                            "name": "불멸",
+                            "description": "짧은 휴식 당 1회, 마지막 HP를 표시해야 할 때 대신 스트레스를 표시할 수 있음."
                         }
                     }
                 },
                 "magical": {
-                    "_name": "Magical",
-                    "_description": "You can't mark an Armor Slot to reduce physical damage.",
+                    "_name": "마법 전용",
+                    "_description": "물리 피해를 줄이기 위해 방어 슬롯을 표시할 수 없음.",
                     "effects": {
                         "magical": {
-                            "_name": "Magical",
-                            "_description": "You can't mark an Armor Slot to reduce physical damage."
+                            "_name": "마법 전용",
+                            "_description": "물리 피해를 줄이기 위해 방어 슬롯을 표시할 수 없음."
                         }
                     }
                 },
                 "painful": {
-                    "_name": "Painful",
-                    "_description": "Each time you mark an Armor Slot, you must mark a Stress.",
+                    "_name": "고통",
+                    "_description": "방어 슬롯을 표시할 때마다 스트레스를 표시해야 함.",
                     "actions": {
                         "pain": {
-                            "_name": "Pain",
-                            "_description": "Each time you mark an Armor Slot, you must mark a Stress."
+                            "_name": "고통",
+                            "_description": "방어 슬롯을 표시할 때마다 스트레스를 표시해야 함."
                         }
                     }
                 },
                 "physical": {
-                    "_name": "Physical",
-                    "_description": "You can't mark an Armor Slot to reduce magic damage.",
+                    "_name": "물리 전용",
+                    "_description": "마법 피해를 줄이기 위해 방어 슬롯을 표시할 수 없음.",
                     "effects": {
                         "physical": {
-                            "_name": "Physical",
-                            "_description": "You can't mark an Armor Slot to reduce magic damage."
+                            "_name": "물리 전용",
+                            "_description": "마법 피해를 줄이기 위해 방어 슬롯을 표시할 수 없음."
                         }
                     }
                 },
                 "quiet": {
-                    "_name": "Quiet",
-                    "_description": "You gain a +2 bonus to rolls you make to move silently.",
+                    "_name": "조용함",
+                    "_description": "은밀하게 이동하는 판정에 +2",
                     "actions": {
                         "quiet": {
-                            "_name": "Quiet",
-                            "_description": "You gain a +2 bonus to rolls you make to move silently."
+                            "_name": "조용함",
+                            "_description": "은밀하게 이동하는 판정에 +2"
                         }
                     }
                 },
                 "reinforced": {
-                    "_name": "Reinforced",
-                    "_description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.",
+                    "_name": "보강",
+                    "_description": "마지막 방어 슬롯을 표시하면, 방어 슬롯이 1 이상 회복될 때까지 피해 임계치 +2",
                     "actions": {
                         "reinforce": {
-                            "_name": "Reinforce",
-                            "_description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
+                            "_name": "보강",
+                            "_description": "마지막 방어 슬롯을 표시하면, 방어 슬롯이 1 이상 회복될 때까지 피해 임계치 +2"
                         }
                     },
                     "effects": {
                         "reinforced": {
-                            "_name": "Reinforced",
-                            "_description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
+                            "_name": "보강",
+                            "_description": "마지막 방어 슬롯을 표시하면, 방어 슬롯이 1 이상 회복될 때까지 피해 임계치 +2"
                         }
                     }
                 },
                 "resilient": {
-                    "_name": "Resilient",
-                    "_description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
+                    "_name": "강인",
+                    "_description": "마지막 방어 슬롯을 표시하기 전에 d6을 굴림. 6이 나오면 방어 슬롯을 표시하지 않고 피해 심각도 감소.",
                     "actions": {
                         "resilient": {
-                            "_name": "Resilient",
-                            "_description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot."
+                            "_name": "강인",
+                            "_description": "마지막 방어 슬롯을 표시하기 전에 d6을 굴림. 6이 나오면 방어 슬롯을 표시하지 않고 피해 심각도 감소."
                         }
                     }
                 },
                 "sharp": {
-                    "_name": "Sharp",
-                    "_description": "On a successful attack against a target within Melee range, add a d4 to the damage roll.",
+                    "_name": "날카로움",
+                    "_description": "근접 거리 내 대상에게 공격 성공 시, 피해 굴림에 d4 추가.",
                     "effects": {
                         "sharp": {
-                            "_name": "Sharp",
-                            "_description": "On a successful attack against a target within Melee range, add a d4 to the damage roll."
+                            "_name": "날카로움",
+                            "_description": "근접 거리 내 대상에게 공격 성공 시, 피해 굴림에 d4 추가."
                         }
                     }
                 },
                 "shifting": {
-                    "_name": "Shifting",
-                    "_description": "When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage.",
+                    "_name": "변화",
+                    "_description": "공격 받을 때 방어 슬롯을 표시하면 공격 굴림에 불리점 부여.",
                     "actions": {
                         "shift": {
-                            "_name": "Shift",
-                            "_description": "When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage."
+                            "_name": "변화",
+                            "_description": "공격 받을 때 방어 슬롯을 표시하면 공격 굴림에 불리점 부여."
                         }
                     }
                 },
                 "timeslowing": {
-                    "_name": "Timeslowing",
-                    "_description": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack.",
+                    "_name": "시간 지연",
+                    "_description": "방어 슬롯을 표시해 d4를 굴리고 그 결과를 회피에 보너스로 더해, 들어오는 공격에 대응할 수 있음.",
                     "actions": {
                         "slowTime": {
-                            "_name": "Slow Time",
-                            "_description": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack."
+                            "_name": "시간 지연",
+                            "_description": "방어 슬롯을 표시해 d4를 굴리고 그 결과를 회피에 보너스로 더해, 들어오는 공격에 대응할 수 있음."
                         }
                     }
                 },
                 "truthseeking": {
-                    "_name": "Truthseeking",
-                    "_description": "This armor glows when another creature within Close range tells a lie.",
+                    "_name": "진실 탐지",
+                    "_description": "가까운 거리 내 생물이 거짓말을 하면 이 갑옷이 빛남.",
                     "actions": {
                         "truthseeking": {
-                            "_name": "Truthseeking",
-                            "_description": "This armor glows when another creature within Close range tells a lie."
+                            "_name": "진실 탐지",
+                            "_description": "가까운 거리 내 생물이 거짓말을 하면 이 갑옷이 빛남."
                         }
                     }
                 },
                 "veryHeavy": {
-                    "_name": "Very Heavy",
-                    "_description": "-2 to Evasion; -1 to Agility",
+                    "_name": "초중량",
+                    "_description": "회피 -2, 민첩 -1",
                     "effects": {
                         "veryHeavy": {
-                            "_name": "Very Heavy",
-                            "_description": "-2 to Evasion; -1 to Agility"
+                            "_name": "초중량",
+                            "_description": "회피 -2, 민첩 -1"
                         }
                     }
                 },
                 "warded": {
-                    "_name": "Warded",
-                    "_description": "You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.",
+                    "_name": "방호",
+                    "_description": "들어오는 마법 피해를 적용하기 전, 방어도만큼 감소시킴.",
                     "effects": {
                         "warded": {
-                            "_name": "Warded",
-                            "_description": "You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds."
+                            "_name": "방호",
+                            "_description": "들어오는 마법 피해를 적용하기 전, 방어도만큼 감소시킴."
                         }
                     }
                 }
@@ -2552,6 +2552,7 @@
         }
     }
 }
+
 
 
 
