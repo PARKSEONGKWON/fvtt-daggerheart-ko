@@ -1,111 +1,111 @@
 {
     "TYPES": {
         "Item": {
-            "ancestry": "Linaje",
-            "community": "Comunidad",
-            "class": "Clase",
-            "subclass": "Subclase",
-            "feature": "Rasgo",
-            "domainCard": "Carta de dominio",
-            "consumable": "Consumible",
-            "loot": "Botín",
-            "weapon": "Arma",
-            "armor": "Armadura",
-            "beastform": "Forma bestial"
+            "ancestry": "혈통",
+            "community": "공동체",
+            "class": "클래스",
+            "subclass": "서브 클래스",
+            "feature": "기능",
+            "domainCard": "권역 카드",
+            "consumable": "소모품",
+            "loot": "전리품",
+            "weapon": "무기",
+            "armor": "방어구",
+            "beastform": "야수 형태"
         },
         "ActiveEffect": {
-            "beastform": "Forma bestial"
+            "beastform": "야수 형태"
         },
         "Actor": {
-            "character": "Personaje",
-            "companion": "Compañero",
-            "adversary": "Adversario",
-            "environment": "Entorno"
+            "character": "캐릭터",
+            "companion": "동료",
+            "adversary": "적대자",
+            "environment": "환경"
         }
     },
     "CONTROLS": {
-        "inFront": "En frente"
+        "inFront": "전방에"
     },
     "DAGGERHEART": {
         "ACTIONS": {
             "TYPES": {
                 "attack": {
                     "name": "공격",
-                    "tooltip": "Acción ofensiva como atacar con un arma, lanzar un conjuro, etc."
+                    "tooltip": "무기 공격, 주문 시전 등과 같은 공격 행동."
                 },
                 "beastform": {
-                    "name": "Forma bestial",
-                    "tooltip": "Transformar al usuario en otra forma."
+                    "name": "야수 형태",
+                    "tooltip": "사용자를 다른 형태로 변신시킵니다."
                 },
                 "damage": {
                     "name": "피해",
-                    "tooltip": "Daño directo sin una tirada."
+                    "tooltip": "굴림 없이 직접 피해를 줍니다."
                 },
                 "effect": {
-                    "name": "Genérico",
-                    "tooltip": "Acción genérica que solo muestra un mensaje en el chat si no se configura nada."
+                    "name": "일반",
+                    "tooltip": "아무것도 설정되지 않았을 경우 채팅 메시지만 표시하는 일반 행동입니다."
                 },
                 "healing": {
-                    "name": "Curar",
-                    "tooltip": "Restaurar recursos del objetivo. Puede tener una tirada configurada."
+                    "name": "치료",
+                    "tooltip": "대상의 자원을 회복시킵니다. 굴림이 필요할 수도 있습니다."
                 },
                 "macro": {
-                    "name": "Macro",
-                    "tooltip": "Ejecuta una macro por UUID."
+                    "name": "매크로",
+                    "tooltip": "UUID로 매크로를 실행합니다."
                 },
                 "summon": {
-                    "name": "Invocar",
-                    "tooltip": "Crear tokens en la escena."
+                    "name": "소환",
+                    "tooltip": "장면에 토큰을 생성합니다."
                 }
             },
             "Config": {
                 "beastform": {
-                    "exact": "Máximo rango de forma bestial",
-                    "exactHint": "Se usará el rango del personaje si está vacío",
-                    "label": "Forma bestial"
+                    "exact": "야수 형태 최대 티어",
+                    "exactHint": "비워둘 경우 캐릭터의 티어를 사용합니다",
+                    "label": "야수 형태"
                 },
-                "displayInChat": "Mostrar en el chat"
+                "displayInChat": "채팅에 표시"
             },
             "RollField": {
                 "diceRolling": {
-                    "compare": "Debe ser",
-                    "dice": "Tipo de dado",
-                    "flatMultiplier": "Multiplicador",
-                    "multiplier": "Número de dados",
-                    "threshold": "Límite"
+                    "compare": "비교값",
+                    "dice": "주사위 유형",
+                    "flatMultiplier": "고정 배수",
+                    "multiplier": "주사위 개수",
+                    "threshold": "임계치"
                 }
             },
             "Settings": {
-                "attackBonus": "Bonificador del ataque",
-                "attackName": "Nombre del ataque",
+                "attackBonus": "공격 보너스",
+                "attackName": "공격 이름",
                 "includeBase": {
-                    "label": "Incluir daño del objeto"
+                    "label": "아이템 피해 포함"
                 },
-                "multiplier": "Multiplicador",
+                "multiplier": "배수",
                 "resultBased": {
-                    "label": "Fórmula basada en el resultado Experanza/Miedo."
+                    "label": "희망/공포 결과 기반 공식."
                 },
                 "applyTo": {
-                    "label": "Recurso seleccionado"
+                    "label": "대상 자원"
                 },
                 "consumeOnSuccess": {
-                    "label": "Consumir solo con Éxito",
-                    "short": "(solo con Éxito)"
+                    "label": "성공 시에만 소모",
+                    "short": "(성공 시에만)"
                 },
                 "cost": {
-                    "stepTooltip": "+{step} por avance"
+                    "stepTooltip": "단계당 +{step}"
                 }
             }
         },
         "ACTIVEEFFECT": {
             "Config": {
                 "rangeDependence": {
-                    "title": "Dependencia de distancia"
+                    "title": "거리 의존"
                 }
             },
             "RangeDependance": {
-                "hint": "Configuración de una distancia opcional a la que este efecto debería activarse",
-                "title": "Dependiente de distancia"
+                "hint": "이 효과가 발동해야 하는 선택적 거리 설정",
+                "title": "거리 의존적"
             }
         },
         "ACTORS": {
@@ -113,185 +113,185 @@
                 "FIELDS": {
                     "attack": {
                         "name": {
-                            "label": "Nombre"
+                            "label": "이름"
                         },
                         "modifier": {
-                            "label": "Modificador"
+                            "label": "수정치"
                         },
                         "range": {
-                            "label": "Alcance"
+                            "label": "거리"
                         },
                         "damage": {
                             "value": {
-                                "label": "Daño"
+                                "label": "피해"
                             },
                             "type": {
-                                "label": "Tipo de daño"
+                                "label": "피해 유형"
                             }
                         }
                     },
                     "damageThresholds": {
                         "major": {
-                            "label": "Mayor"
+                            "label": "중상"
                         },
                         "severe": {
-                            "label": "Severo"
+                            "label": "심각"
                         }
                     },
                     "description": {
-                        "label": "Descripción"
+                        "label": "설명"
                     },
                     "difficulty": {
-                        "label": "Dificultad"
+                        "label": "난이도"
                     },
                     "experiences": {
                         "element": {
                             "name": {
-                                "label": "Nombre"
+                                "label": "이름"
                             },
                             "value": {
-                                "label": "Modificador"
+                                "label": "수정치"
                             }
                         }
                     },
                     "motivesAndTactics": {
-                        "label": "Motivaciones y tácticas"
+                        "label": "동기와 전술"
                     },
                     "resources": {
                         "hitPoints": {
                             "value": {
-                                "label": "Actual"
+                                "label": "현재"
                             },
                             "max": {
-                                "label": "Máx"
+                                "label": "최대"
                             }
                         },
                         "stress": {
                             "value": {
-                                "label": "Actual"
+                                "label": "현재"
                             },
                             "max": {
-                                "label": "Máx"
+                                "label": "최대"
                             }
                         }
                     },
                     "tier": {
-                        "label": "Rango"
+                        "label": "티어"
                     },
                     "type": {
-                        "label": "Tipo"
+                        "label": "유형"
                     }
                 },
-                "hordeDamage": "Daño de horda",
-                "horderHp": "Horda/PG"
+                "hordeDamage": "무리 피해",
+                "horderHp": "무리/HP"
             },
             "Character": {
                 "advantageSources": {
-                    "label": "Fuentes de ventaja",
-                    "hint": "Añade palabras o un texto corto como recordatorios de en qué tiene el personaje ventaja."
+                    "label": "이점 출처",
+                    "hint": "캐릭터가 어떤 상황에서 이점을 가지는지 상기시켜줄 단어나 짧은 문구를 추가하세요."
                 },
-                "age": "Edad",
-                "companionFeatures": "Rasgos de compañero",
+                "age": "나이",
+                "companionFeatures": "동료 기능",
                 "contextMenu": {
-                    "consume": "Consumir objeto",
-                    "equip": "Equipar",
-                    "sendToChat": "Enviar al chat",
-                    "toLoadout": "Enviar a la mano",
-                    "toVault": "Enviar al depósito",
-                    "unequip": "Quitar",
-                    "useItem": "Usar objeto"
+                    "consume": "소모품 사용",
+                    "equip": "장비",
+                    "sendToChat": "채팅에 보내기",
+                    "toLoadout": "장비로 보내기",
+                    "toVault": "보관소로 보내기",
+                    "unequip": "장비 해제",
+                    "useItem": "아이템 사용"
                 },
                 "disadvantageSources": {
-                    "label": "Fuentes de desventaja",
-                    "hint": "Añade palabras o un texto corto como recordatorios de en qué tiene el personaje desventaja."
+                    "label": "불리점 출처",
+                    "hint": "캐릭터가 어떤 상황에서 불리점을 가지는지 상기시켜줄 단어나 짧은 문구를 추가하세요."
                 },
-                "faith": "Fé",
-                "levelUp": "Puedes subir de nivel",
-                "maxEvasionBonus": "Máximo incremento de evasión",
-                "maxHPBonus": "Máximo incremento de PG",
-                "pronouns": "Pronombres",
+                "faith": "신앙",
+                "levelUp": "레벨업이 가능합니다",
+                "maxEvasionBonus": "최대 회피 증가",
+                "maxHPBonus": "최대 HP 증가",
+                "pronouns": "대명사",
                 "story": {
-                    "backgroundTitle": "Trasfondo",
-                    "characteristics": "Características",
-                    "connectionsTitle": "Conexiones"
+                    "backgroundTitle": "배경",
+                    "characteristics": "특징",
+                    "connectionsTitle": "연결"
                 },
                 "experienceDataRemoveConfirmation": {
-                    "title": "Eliminar datos de experiencia",
-                    "text": "La experiencia que vas a eliminar tiene datos de subida de nivel enlazados (probablemente porque has subido de nivel con la configuración de automatización 'levelupAuto' activada). Borrarla hará que se quite esta automatización. ¿Quieres continuar?"
+                    "title": "경험 데이터 삭제",
+                    "text": "삭제하려는 경험은 레벨업 데이터와 연결되어 있습니다 (아마도 '자동 레벨업' 설정으로 레벨업을 했기 때문일 수 있습니다). 이 경험을 삭제하면 해당 자동화 데이터도 제거됩니다. 계속하시겠습니까?"
                 },
                 "manualMulticlass": {
-                    "title": "Multiclase",
-                    "text": "¿Quieres añadir esta clase como tu multiclase?"
+                    "title": "멀티클래스",
+                    "text": "이 직업을 멀티클래스로 추가하시겠습니까?"
                 },
                 "manualMulticlassSubclass": {
-                    "title": "Subclase de multiclase",
-                    "text": "¿Quieres añadir esta subclase como la subclase de tu multiclase?"
+                    "title": "멀티 서브 클래스",
+                    "text": "이 서브 클래스를 멀티 서브 클래스로 추가하시겠습니까?"
                 },
-                "cannotRemoveCoreExperience": "Estás usando Auto subida de nivel. No puedes borrar una experiencia otorgada por la progresión.",
+                "cannotRemoveCoreExperience": "현재 자동 레벨업 기능을 사용 중입니다. 규칙 진행에 따라 주어진 경험은 삭제할 수 없습니다.",
                 "companionLevelup": {
-                    "confirmTitle": "Subida de nivel de compañero",
-                    "confirmText": "¿Quieres subir de nivel a tu compañero {name} {levelChange} niveles ahora? (Puedes hacerlo manualmente después)"
+                    "confirmTitle": "동료 레벨업",
+                    "confirmText": "지금 {name}을(를) {levelChange}레벨 올리시겠습니까? (나중에 수동으로 할 수도 있습니다)"
                 },
-                "InvalidOldCharacterImportTitle": "Importar personaje antiguo",
-                "InvalidOldCharacterImportText": "Los datos de personaje exportados antes de la versión 1.1 no generarán un personaje completo. ¿Quieres continuar?"
+                "InvalidOldCharacterImportTitle": "구버전 캐릭터 가져오기",
+                "InvalidOldCharacterImportText": "시스템 버전 1.1 이전에 내보낸 캐릭터 데이터는 완전한 캐릭터를 생성하지 못합니다. 계속하시겠습니까?"
             },
             "Companion": {
                 "FIELDS": {
                     "attack": {
                         "name": {
-                            "label": "Nombre del ataque"
+                            "label": "공격 이름"
                         }
                     },
                     "evasion": {
                         "value": {
-                            "label": "Evasión"
+                            "label": "회피"
                         }
                     },
                     "partner": {
-                        "label": "Compañero"
+                        "label": "파트너"
                     },
                     "resources": {
                         "stress": {
                             "value": {
-                                "label": "Estrés"
+                                "label": "스트레스"
                             },
                             "currentStress": {
-                                "label": "Estrés actual"
+                                "label": "현재 스트레스"
                             },
                             "maxStress": {
-                                "label": "Estrés máx"
+                                "label": "최대 스트레스"
                             }
                         }
                     }
                 },
-                "noPartner": "Ningún compañero seleccionado"
+                "noPartner": "파트너가 선택되지 않았습니다."
             },
             "Environment": {
                 "FIELDS": {
                     "description": {
-                        "label": "Descripción"
+                        "label": "설명"
                     },
                     "difficulty": {
-                        "label": "Dificultad"
+                        "label": "난이도"
                     },
                     "impulses": {
-                        "label": "Impulsos"
+                        "label": "충동"
                     },
                     "tier": {
-                        "label": "Rango"
+                        "label": "티어"
                     },
                     "type": {
-                        "label": "Tipo"
+                        "label": "유형"
                     }
                 },
-                "newAdversary": "Nuevo adversario"
+                "newAdversary": "새로운 적대자"
             }
         },
         "APPLICATIONS": {
             "CharacterCreation": {
                 "tabs": {
-                    "ancestry": "Linaje",
-                    "community": "Comunidad",
+                    "ancestry": "유산",
+                    "community": "공동체",
                     "class": "Clase",
                     "experience": "Experiencia",
                     "traits": "Atributos",
@@ -2552,3 +2552,4 @@
         }
     }
 }
+
