@@ -296,7 +296,7 @@
                     "experience": "경험",
                     "traits": "특성",
                     "domainCards": "권역 카드",
-                    "equipment": "장비                       }
+                    "equipment": "장비"
                     },
                     "evasion": {
                         "value": {
@@ -2608,5 +2608,6 @@
         }
     }
 }
+
 
 
