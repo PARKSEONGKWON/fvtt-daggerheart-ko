@@ -297,62 +297,6 @@
                     "traits": "특성",
                     "domainCards": "권역 카드",
                     "equipment": "장비"
-                    },
-                    "evasion": {
-                        "value": {
-                            "label": "회피"
-                        }
-                    },
-                    "partner": {
-                        "label": "파트너"
-                    },
-                    "resources": {
-                        "stress": {
-                            "value": {
-                                "label": "스트레스"
-                            },
-                            "currentStress": {
-                                "label": "현재 스트레스"
-                            },
-                            "maxStress": {
-                                "label": "최대 스트레스"
-                            }
-                        }
-                    }
-                },
-                "noPartner": "파트너가 선택되지 않았습니다."
-            },
-            "Environment": {
-                "FIELDS": {
-                    "description": {
-                        "label": "설명"
-                    },
-                    "difficulty": {
-                        "label": "난이도"
-                    },
-                    "impulses": {
-                        "label": "충동"
-                    },
-                    "tier": {
-                        "label": "티어"
-                    },
-                    "type": {
-                        "label": "유형"
-                    }
-                },
-                "newAdversary": "새로운 적대자"
-            }
-        },
-        "APPLICATIONS": {
-            "CharacterCreation": {
-                "tabs": {
-                    "ancestry": "유산",
-                    "community": "공동체",
-                    "class": "클래스",
-                    "experience": "경험",
-                    "traits": "특성",
-                    "domainCards": "권역 카드",
-                    "equipment": "장비"
                 },
                 "ancestryNamePlaceholder": "당신의 유산 이름",
                 "buttonTitle": "캐릭터 설정",
@@ -2608,6 +2552,7 @@
         }
     }
 }
+
 
 
 
