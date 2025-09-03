@@ -1,6 +1,6 @@
 {
-  "id": "daggerheart-es",
-  "title": "Translation: Español [Daggerheart]",
+  "id": "daggerheart-ko",
+  "title": "Translation: Korea [Daggerheart]",
   "description": "Unofficial spanish translation of the Foundryborne Daggerheart system for FoundryVTT",
   "version": "0.0.1",
   "compatibility": {
@@ -42,9 +42,9 @@
   },
   "languages": [
     {
-      "lang": "es",
-      "name": "Español",
-      "path": "lang/es.json",
+      "lang": "ko",
+      "name": "Korea",
+      "path": "lang/ko.json",
       "flags": {}
     }
   ],
