@@ -650,62 +650,62 @@
             },
             "ArmorFeature": {
                 "burning": {
-                    "name": "Ardiente",
-                    "description": "Cuando un adversario te ataca a distancia de melé marca un Estrés.",
+                    "name": "불꽃",
+                    "description": "근접 거리에서 적이 당신을 공격하면, 그 적은 스트레스를 표시해야 함",
                     "actions": {
                         "burn": {
-                            "name": "Quemar",
-                            "description": "Cuando un adversario te ataca a distancia de melé marca un Estrés."
+                            "name": "불꽃",
+                            "description": "근접 거리에서 적이 당신을 공격하면, 그 적은 스트레스를 표시해야 함"
                         }
                     }
                 },
                 "channeling": {
-                    "name": "Canalizadora",
-                    "description": "+1 a las tiradas de lanzamiento de conjuros",
+                    "name": "집중",
+                    "description": "주문시전 굴림 +1",
                     "effects": {
                         "channeling": {
-                            "name": "Canalizadora",
-                            "description": "+1 a las tiradas de lanzamiento de conjuros"
+                            "name": "집중",
+                            "description": "주문시전 굴림 +1"
                         }
                     }
                 },
                 "difficult": {
-                    "name": "Difícil",
-                    "description": "-1 a todos los atributos y Evasión",
+                    "name": "부담",
+                    "description": "모든 캐릭터 특성과 회피 -1",
                     "effects": {
                         "difficult": {
-                            "name": "Difícil",
-                            "description": "-1 a todos los atributos y Evasión"
+                            "name": "부담",
+                            "description": "모든 캐릭터 특성과 회피 -1"
                         }
                     }
                 },
                 "flexible": {
-                    "name": "Flexible",
-                    "description": "+1 a Evasión",
+                    "name": "유연",
+                    "description": "회피 +1",
                     "effects": {
                         "flexible": {
                             "name": "Flexible",
-                            "description": "+1 a Evasión"
+                            "description": "회피 +1"
                         }
                     }
                 },
                 "fortified": {
-                    "name": "Fortificada",
-                    "description": "Cuando marcas un espacio de armadura puedes reducir la severidad del ataque en dos límites en lugar de uno.",
+                    "name": "요새화",
+                    "description": "방어 슬롯을 표시할 때, 공격의 심각도를 한 단계가 아닌 두 단계 낮춤",
                     "effects": {
                         "fortified": {
-                            "name": "Fortificada",
-                            "description": "Cuando marcas un espacio de armadura puedes reducir la severidad del ataque en dos límites en lugar de uno."
+                            "name": "요새화",
+                            "description": "방어 슬롯을 표시할 때, 공격의 심각도를 한 단계가 아닌 두 단계 낮춤"
                         }
                     }
                 },
                 "gilded": {
-                    "name": "Dorada",
-                    "description": "+1 a Presencia",
+                    "name": "화려",
+                    "description": "매력 +1",
                     "effects": {
                         "gilded": {
-                            "name": "Dorada",
-                            "description": "+1 a Presencia"
+                            "name": "화려",
+                            "description": "매력 +1"
                         }
                     }
                 },
@@ -2552,6 +2552,7 @@
         }
     }
 }
+
 
 
 
