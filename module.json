@@ -43,7 +43,7 @@
   "languages": [
     {
       "lang": "ko",
-      "name": "Korea",
+      "name": "Korean",
       "path": "lang/ko.json",
       "flags": {}
     }
