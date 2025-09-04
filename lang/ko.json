@@ -2568,7 +2568,7 @@
                 "disableEffect": "효과 비활성화",
                 "enableEffect": "효과 활성화",
                 "openItemWorld": "아이템 월드 열기",
-                "openActorWorld": 액터 월드 열기",
+                "openActorWorld": "액터 월드 열기",
                 "sendToChat": "채팅에 보내기",
                 "maxEvasionClassBound": "당신의 기본 회피는 클래스에 의해 정해집니다. 이것은 그 기본치에 대한 증가분입니다.",
                 "maxHPClassBound": "당신의 기본 HP는 클래스에 의해 정해집니다. 이것은 그 기본치에 대한 증가분입니다.",
@@ -2594,3 +2594,4 @@
         }
     }
 }
+
