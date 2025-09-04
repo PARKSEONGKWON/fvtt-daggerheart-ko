@@ -1192,270 +1192,312 @@
                     }
                 },
                 "concussive": {
-                    "name": "Conmocionante",
-                    "description": "Con un ataque exitoso puedes gastar 1 punto de Esperanza para repeler a un enemigo hasta una distancia Lejos.",
+                    "name": "충격",
+                    "description": "공격 성공 시 희망을 사용해 대상을 먼 거리로 밀어냄.",
                     "actions": {
                         "attack": {
-                            "name": "Conmocionar",
-                            "description": "Con un ataque exitoso puedes gastar 1 punto de Esperanza para repeler a un enemigo hasta una distancia Lejos."
+                            "name": "충격",
+                            "description": "공격 성공 시 희망을 사용해 대상을 먼 거리로 밀어냄."
                         }
                     }
                 },
                 "cumbersome": {
-                    "name": "Incómoda",
-                    "description": "-1 a Destreza",
+                    "name": "다루기 어려움",
+                    "description": "기교 -1",
                     "effects": {
                         "cumbersome": {
-                            "name": "Incómoda",
-                            "description": "-1 a Destreza"
+                            "name": "다루기 어려움",
+                            "description": "기교 -1"
                         }
                     }
                 },
                 "deadly": {
-                    "name": "Mortal",
-                    "description": "Cuado haces daño severo el objetivo debe marcar un PG adicional.",
+                    "name": "치명",
+                    "description": "심각 피해를 줄 경우 대상은 HP를 1 추가로 표시해야 함.",
                     "actions": {
                         "extraDamage": {
-                            "name": "Mortal",
-                            "description": "Cuado haces daño severo el objetivo debe marcar un PG adicional."
+                            "name": "치명",
+                            "description": "심각 피해를 줄 경우 대상은 HP를 1 추가로 표시해야 함."
                         }
                     }
                 },
                 "deflecting": {
-                    "name": "Desviante",
-                    "description": "Cuando eres atacado puedes marcar un espacio de armadura para ganar un bonificador a tu Evasión igual a tu valor de armadura contra el ataque.",
+                    
+                    "name": "튕겨내기",
+                    "description": "공격 받을 때 방어 슬롯을 표시하면, 해당 공격에 대해 남은 방어 슬롯 수만큼 회피 보너스를 얻음.",
                     "actions": {
                         "deflect": {
-                            "name": "Desviar",
-                            "description": "Cuando eres atacado puedes marcar un espacio de armadura para ganar un bonificador a tu Evasión igual a tu valor de armadura contra el ataque."
+                            "name": "튕겨내기",
+                            "description": "공격 받을 때 방어 슬롯을 표시하면, 해당 공격에 대해 남은 방어 슬롯 수만큼 회피 보너스를 얻음."
                         }
                     },
                     "effects": {
                         "deflecting": {
-                            "name": "Desviante",
-                            "description": "Gana un bonificador a tu Evasión igual a tu Valor de Armadura contra el ataque"
+                            "name": "튕견개ㅣ",
+                            "description": "공격 받을 때 방어 슬롯을 표시하면, 해당 공격에 대해 남은 방어 슬롯 수만큼 회피 보너스를 얻음e"
                         }
                     }
                 },
                 "destructive": {
-                    "name": "Destructiva",
-                    "description": "-1 a Agilidad; con un ataque exitoso todos los adversarios a alcance Muy Cerca deben marcar estrés.",
+                    "name": "분쇄",
+                    "description": "민첩 -1; 공격 성공 시 매우 가까운 거리의 모든 적은 스트레스를 1 표시.",
                     "actions": {
                         "attack": {
-                            "name": "Destrucción",
-                            "description": "Con un ataque exitoso todos los adversarios a alcance Muy Cerca deben marcar estrés."
+                            "name": "분쇄",
+                            "description": "민첩 -1; 공격 성공 시 매우 가까운 거리의 모든 적은 스트레스를 1 표시."
                         }
                     },
                     "effects": {
                         "agility": {
-                            "name": "Destructiva",
-                            "description": "-1 a Agilidad"
+                            "name": "분쇄",
+                            "description": "민첩 -1"
                         }
                     }
                 },
                 "devastating": {
-                    "name": "Devastadora",
-                    "description": "Antes de hacer la tirada de ataque puedes marcar Estrés para usar un d20 en como dado de daño.",
+                    "name": "파괴",
+                    "description": "공격 굴림 전에 스트레스를 표시하면 피해 주사위로 d20을 사용할 수 있음.",
                     "actions": {
                         "devastate": {
-                            "name": "Devastar",
-                            "description": "Antes de hacer la tirada de ataque puedes marcar Estrés para usar un d20 en como dado de daño."
+                            "name": "파괴",
+                            "description": "공격 굴림 전에 스트레스를 표시하면 피해 주사위로 d20을 사용할 수 있음."
                         }
                     }
                 },
                 "doubleDuty": {
-                    "name": "Doble Función",
-                    "description": "+1 a la puntuación de Armadura; +1 al daño en melé con un arma principal",
+                    "name": "이중 역할",
+                    "description": "방어도 +1, 근접 거리 내 주 무기 피해 +1",
                     "effects": {
                         "doubleDuty": {
-                            "name": "Doble Función",
-                            "description": "+1 a la puntuación de Armadura; +1 al daño en melé con un arma principal"
+                            "name": "이중 역할",
+                            "description": "방어도 +1, 근접 거리 내 주 무기 피해 +1"
                         }
                     }
                 },
                 "doubledUp": {
-                    "name": "Duplicada",
-                    "description": "Cuando haces un ataque con un arma principal puedes hacer daño a otro objetivo a rango de melé.",
+                    "name": "이중 공격",
+                    "description": "주 무기로 공격할 때 근접 거리 내 다른 대상에게도 피해를 줄 수 있음.",
                     "actions": {
                         "doubleUp": {
-                            "name": "Duplicar",
-                            "description": "Cuando haces un ataque con un arma principal puedes hacer daño a otro objetivo a rango de melé."
+                            "name": "이중 공격",
+                            "description": "주 무기로 공격할 때 근접 거리 내 다른 대상에게도 피해를 줄 수 있음é."
                         }
                     }
                 },
                 "dueling": {
-                    "name": "Duelista",
-                    "description": "Cuando no hay otras criaturas Cerca del objetivo obtienes ventaja en tu tirada de ataque contra dicho objetivo.",
+                    "name": "결투",
+                    "description": "대상과 가까운 거리 내에 다른 생물이 없으면, 그 대상에 대한 공격 굴림에 이점을 얻음.",
                     "actions": {
                         "duel": {
-                            "name": "Duelo",
-                            "description": "Cuando no hay otras criaturas Cerca del objetivo obtienes ventaja en tu tirada de ataque contra dicho objetivo."
+                            "name": "결투",
+                            "description": "대상과 가까운 거리 내에 다른 생물이 없으면, 그 대상에 대한 공격 굴림에 이점을 얻음."
                         }
                     }
                 },
                 "eruptive": {
-                    "name": "Eruptiva",
-                    "description": "Con un ataque exitoso contra un objetivo a rango de melé todos los demás adversarios que estén Muy Cerca deben tener éxito en una tirada de reacción (14) o recibir la mitad del daño.",
+                    "name": "분출",
+                    "description": "근접 거리의 대상 공격 성공 시, 매우 가까운 거리 내의 모든 적대자는 대응 굴림 (14)에 실패하면 절반 피해를 받음.",
                     "actions": {
                         "erupt": {
-                            "name": "Erupcionar",
-                            "description": "Con un ataque exitoso contra un objetivo a rango de melé todos los demás adversarios que estén Muy Cerca deben tener éxito en una tirada de reacción (14) o recibir la mitad del dañoe."
+                            "name": "분출",
+                            "description": "근접 거리의 대상 공격 성공 시, 매우 가까운 거리 내의 모든 적대자는 대응 굴림 (14)에 실패하면 절반 피해를 받음."
                         }
                     }
                 },
                 "grappling": {
-                    "name": "Apresadora",
-                    "description": "Con un ataque exitoso puedes gastar 1 punto de Esperanza para Apresar al objetivo o acercarlo a rango de Melé.",
+                    "name": "포획",
+                    "description": "공격 성공 시 희망을 사용해 대상을 포박하거나 근접 거리로 끌어당김.",
                     "actions": {
                         "grapple": {
-                            "name": "Apresar",
-                            "description": "Con un ataque exitoso puedes gastar 1 punto de Esperanza para Apresar al objetivo o acercarlo a rango de Melé."
+                            "name": "포획",
+                            "description": "공격 성공 시 희망을 사용해 대상을 포박하거나 근접 거리로 끌어당김."
                         }
                     }
                 },
                 "greedy": {
                     "name": "Codiciosa",
-                    "description": "Gasta un puñado de oro para ganar un bonificador de +1 a tu Competencia en la tirada de daño.",
+                    "description": "금화 한 줌을 소모하여 피해 굴림 숙련에 +1 보너스.",
                     "actions": {
                         "greed": {
-                            "name": "Codicia",
-                            "description": "Gasta un puñado de oro para ganar un bonificador de +1 a tu Competencia en la tirada de daño."
+                            "name": "탐욕             "doubleUp": {
+                            "name": "이중 공격",
+                            "description": "주 무기로 공격할 때 근접 거리 내 다른 대상에게도 피해를 줄 수 있음é."
+                        }
+                    }
+                },
+                "dueling": {
+                    "name": "결투",
+                    "description": "대상과 가까운 거리 내에 다른 생물이 없으면, 그 대상에 대한 공격 굴림에 이점을 얻음.",
+                    "actions": {
+                        "duel": {
+                            "name": "결투",
+                            "description": "대상과 가까운 거리 내에 다른 생물이 없으면, 그 대상에 대한 공격 굴림에 이점을 얻음."
+                        }
+                    }
+                },
+                "eruptive": {
+                    "name": "분출",
+                    "description": "근접 거리의 대상 공격 성공 시, 매우 가까운 거리 내의 모든 적대자는 대응 굴림 (14)에 실패하면 절반 피해를 받음.",
+                    "actions": {
+                        "erupt": {
+                            "name": "분출",
+                            "description": "근접 거리의 대상 공격 성공 시, 매우 가까운 거리 내의 모든 적대자는 대응 굴림 (14)에 실패하면 절반 피해를 받음."
+                        }
+                    }
+                },
+                "grappling": {
+                    "name": "포획",
+                    "description": "공격 성공 시 희망을 사용해 대상을 포박하거나 근접 거리로 끌어당김.",
+                    "actions": {
+                        "grapple": {
+                            "name": "포획",
+                            "description": "공격 성공 시 희망을 사용해 대상을 포박하거나 근접 거리로 끌어당김."
+                        }
+                    }
+                },
+                "greedy": {
+                    "name": "Codiciosa",
+                    "description": "금화 한 줌을 소모하여 피해 굴림 숙련에 +1 보너스.",
+                    "actions": {
+                        "greed": {
+                            "name": "탐욕",
+                            "description": "금화 한 줌을 소모하여 피해 굴림 숙련에 +1 보너스."
                         }
                     }
                 },
                 "healing": {
-                    "name": "Curativa",
-                    "description": "Durante el tiempo de descanso automáticamente eliminas un punto de golpe.",
+                    "name": "치유",
+                    "description": "휴식 동안 자동으로 HP 1 회복.",
                     "actions": {
                         "heal": {
-                            "name": "Curar",
-                            "description": "Durante el tiempo de descanso automáticamente eliminas un punto de golpe."
+                            "name": "치유",
+                            "description": "휴식 동안 자동으로 HP 1 회복."
                         }
                     }
                 },
                 "heavy": {
-                    "name": "Pesada",
-                    "description": "-1 a Evasión",
+                    "name": "중량",
+                    "description": "회피 -1",
                     "effects": {
                         "heavy": {
-                            "name": "Pesada",
-                            "description": "-1 a Evasión"
+                            "name": "중량",
+                            "description": "회피 -1"
                         }
                     }
                 },
                 "hooked": {
-                    "name": "Ganchudo",
-                    "description": "Con un ataque exitoso atraes al objetivo a melé.",
+                    "name": "갈고리",
+                    "description": "공격 성공 시 대상을 근접 거리로 끌어당김.",
                     "actions": {
                         "hook": {
-                            "name": "Gancho",
-                            "description": "Con un ataque exitoso atraes al objetivo a melé."
+                            "name": "갈고리",
+                            "description": "공격 성공 시 대상을 근접 거리로 끌어당김."
                         }
                     }
                 },
                 "hot": {
-                    "name": "Caliente",
-                    "description": "Esta arma corta a través de material sólido.",
+                    "name": "뜨거움움",
+                    "description": "이 무기는 단단한 물질을 베어낼 수 있음.",
                     "actions": {
                         "hot": {
-                            "name": "Caliente",
-                            "description": "Esta arma corta a través de material sólido."
+                            "name": "뜨거움",
+                            "description": "이 무기는 단단한 물질을 베어낼 수 있음."
                         }
                     }
                 },
                 "invigorating": {
-                    "name": "Vigorizante",
-                    "description": "Con un ataque exitoso tira un d4. Si obtienes un 4 elimina un Estrés.",
+                    "name": "활력 부여",
+                    "description": "공격 성공 시, d4를 굴려 4가 나오면 스트레스 1을 제거.",
                     "actions": {
                         "invigorate": {
-                            "name": "Vigorizar",
-                            "description": "Con un ataque exitoso tira un d4. Si obtienes un 4 elimina un Estrés."
+                            "name": "활력 부여",
+                            "description": "공격 성공 시, d4를 굴려 4가 나오면 스트레스 1을 제거."
                         }
                     }
                 },
                 "lifestealing": {
-                    "name": "Robavidas",
-                    "description": "Con un ataque exitoso tira un d6. Si sacas un 6 elimina un Punto de Golpe o Estrés.",
+                    "name": "생명 흡수",
+                    "description": "공격 성공 시 d6을 굴려 6이 나오면 HP 또는 스트레스 1점을 회복.",
                     "actions": {
                         "lifesteal": {
-                            "name": "Robar vida",
-                            "description": "Con un ataque exitoso tira un d6. Si sacas un 6 elimina un Punto de Golpe o Estrés."
+                            "name": "생명 흡수",
+                            "description": "공격 성공 시 d6을 굴려 6이 나오면 HP 또는 스트레스 1점을 회복."
                         }
                     }
                 },
                 "lockedOn": {
-                    "name": "Fijada",
-                    "description": "Con un ataque exitoso tu próximo ataque contra el mismo objetivo con tu arma principal tiene éxito automáticamente.",
+                    "name": "조준 고정",
+                    "description": "공격 성공 시, 같은 대상에 대한 다음 주 무기 공격은 자동으로 성공함.",
                     "actions": {
                         "lockOn": {
-                            "name": "Fijar",
-                            "description": "Con un ataque exitoso tu próximo ataque contra el mismo objetivo con tu arma principal tiene éxito automáticamente."
+                            "name": "조준 고정",
+                            "description": "공격 성공 시, 같은 대상에 대한 다음 주 무기 공격은 자동으로 성공함."
                         }
                     }
                 },
                 "long": {
-                    "name": "Larga",
-                    "description": "El ataque de esta arma está dirigido a todos los adversarios en una línea dentro del alcance.",
+                    "name": "긴 무기",
+                    "description": "공격 시 사거리 내 일직선에 있는 모든 적을 공격.",
                     "actions": {
                         "long": {
-                            "name": "Larga",
-                            "description": "El ataque de esta arma está dirigido a todos los adversarios en una línea dentro del alcance."
+                            "name": "긴 무기",
+                            "description": "공격 시 사거리 내 일직선에 있는 모든 적을 공격."
                         }
                     }
                 },
                 "lucky": {
-                    "name": "Suertuda",
-                    "description": "Cuando fallas un ataque puedes marcar un Estrés para volver a tirar el ataque.",
+                    "name": "행운",
+                    "description": "공격 실패 시 스트레스를 표시하면 재굴림 가능.",
                     "actions": {
                         "luck": {
-                            "name": "Suerte",
-                            "description": "Cuando fallas un ataque puedes marcar un Estrés para volver a tirar el ataque."
+                            "name": "행운",
+                            "description": "공격 실패 시 스트레스를 표시하면 재굴림 가능."
                         }
                     }
                 },
                 "massive": {
-                    "name": "Masiva",
-                    "description": "-1 a Evasión; cuando tienes éxito en el ataque tira un dado de daño adicional y descarta el resultado más bajo.",
+                    "name": "거대함",
+                    "description": "회피 -1; 공격에 성공하면 피해 주사위를 하나 더 굴리고, 가장 낮은 결과를 버립니다.",
                     "effects": {
                         "massive": {
-                            "name": "Masiva",
-                            "description": "-1 a Evasión; cuando tienes éxito en el ataque tira un dado de daño adicional y descarta el resultado más bajo."
+                            "name": "거대함",
+                            "description": "회피 -1; 공격에 성공하면 피해 주사위를 하나 더 굴리고, 가장 낮은 결과를 버립니다."
                         }
                     }
                 },
                 "painful": {
-                    "name": "Dolorosa",
-                    "description": "Cada vez que realizas un ataque exitoso debes marcar Estrés.",
+                    "name": "고통",
+                    "description": "공격이 성공할 때마다 스트레스를 표시해야 함.",
                     "actions": {
                         "pain": {
-                            "name": "Dolor",
-                            "description": "Cada vez que realizas un ataque exitoso debes marcar Estrés."
+                            "name": "고통",
+                            "description": "공격이 성공할 때마다 스트레스를 표시해야 함."
                         }
                     }
                 },
                 "paired": {
-                    "name": "Emparejada",
-                    "description": "Añade el Rango de este arma secundaria + 1 al daño de tu arma principal contra objetivos a distancia de melé",
+                    "name": "쌍수",
+                    "description": "보조 무기의 티어 +1만큼 근접 거리 내의 대상에게 가하는 주 무기 피해 증가.",
                     "actions": {
                         "paired": {
-                            "name": "Emparejada",
-                            "description": "Añade el Rango de este arma secundaria + 1 al daño de tu arma principal contra objetivos a distancia de melé"
+                            "name": "쌍수",
+                            "description": "보조 무기의 티어 +1만큼 근접 거리 내의 대상에게 가하는 주 무기 피해 증가."
                         }
                     },
                     "effects": {
                         "paired": {
-                            "name": "Emparejada",
-                            "description": "Añade el Rango de este arma secundaria + 1 al daño de tu arma principal contra objetivos a distancia de melé"
+                            "name": "쌍수",
+                            "description": "보조 무기의 티어 +1만큼 근접 거리 내의 대상에게 가하는 주 무기 피해 증가."
                         }
                     }
                 },
                 "parry": {
-                    "name": "Parada",
-                    "description": "Cuando eres atacado tira el dado de daño de esta arma. Si alguno de los dados de daño del atacante tiene el mismo valor que tu dado dicho dado es descartado del total del daño que recibes.",
+                    "name": "받아치기",
+                    "description": "공격 받을 때 이 무기의 피해 주사위를 굴립니다. 공격자의 피해 주사위 중 같은 값이 나오면 그 주사위를 제거합니다.",
                     "actions": {
                         "parry": {
-                            "name": "Parada",
-                            "description": "Cuando eres atacado tira el dado de daño de esta arma. Si alguno de los dados de daño del atacante tiene el mismo valor que tu dado dicho dado es descartado del total del daño que recibes."
+                            "name": "받아치기",
+                            "description": "공격 받을 때 이 무기의 피해 주사위를 굴립니다. 공격자의 피해 주사위 중 같은 값이 나오면 그 주사위를 제거합니다.."
                         }
                     }
                 },
@@ -2552,6 +2594,7 @@
         }
     }
 }
+
 
 
 
