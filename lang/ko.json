@@ -1795,7 +1795,7 @@
                 "title": "피해 임계치",
                 "minor": "심각",
                 "major": "중상",
-                "severe": "경",
+                "severe": "경상",
                 "majorThreshold": "중상 피해 임계치",
                 "severeThreshold": "심각 피해 임계치",
                 "with": "피해 임계치 {threshold}"
@@ -1840,7 +1840,7 @@
                     "_description": "밤은 그림자와 비밀의 권역입니다. 밤은 수련자에게 수수께끼를 통제하고 창조하는 힘을 제공합니다."
                 },
                 "sage": {
-                    "label": "현",
+                    "label": "현자",
                     "_description": "현자는 자연 세계의 권역입니다. 현자는 따르는 이들에게 만개한 꽃의 활력과 굶주린 포식자의 사나움을 부여합니다."
                 },
                 "splendor": {
@@ -2054,7 +2054,7 @@
             "level": "레벨",
             "levelShort": "Lv",
             "levelUp": "레벨 상승",
-            "loadout": "장",
+            "loadout": "장비",
             "max": "최대",
             "miss": {
                 "single": "실패",
@@ -2593,6 +2593,7 @@
         }
     }
 }
+
 
 
 
