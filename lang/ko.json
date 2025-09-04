@@ -2226,7 +2226,7 @@
             },
             "DomainCard": {
                 "type": "유형",
-                "recallCost": "회상 비용,
+                "recallCost": "회상 비용",
                 "foundationTitle": "기초",
                 "specializationTitle": "전문",
                 "masteryTitle": "통달"
@@ -2593,6 +2593,7 @@
         }
     }
 }
+
 
 
 
