@@ -1638,7 +1638,7 @@
                     }
                 },
                 "sheltering": {
-                    "_name": "보",
+                    "_name": "보호",
                     "_description": "방어 슬롯을 표시하면 같은 피해를 입은 자신과 근접 거리 내의 모든 아군에게 피해 경감을 적용.",
                     "actions": {
                         "shelter": {
@@ -1662,7 +1662,7 @@
                     "_description": "공격 굴림을 한 후 대상을 선택할 수 있음.",
                     "actions": {
                         "bendTime": {
-                            "_name": "시간 왜곡곡",
+                            "_name": "시간 왜곡",
                             "_description": "공격 굴림을 한 후 대상을 선택할 수 있음."
                         }
                     }
@@ -1678,7 +1678,7 @@
                     "name": "피해 굴림"
                 },
                 "healingRoll": {
-                    "name": "치유 굴"
+                    "name": "치유 굴림"
                 }
             },
             "Duration": {
@@ -1720,11 +1720,11 @@
             },
             "Bonuses": {
                 "rest": {
-                    "_downtimeAction": "휴식 행",
+                    "_downtimeAction": "휴식 행동",
                     "shortRest": {
                         "shortRestMoves": {
                             "_label": "짧은 휴식: 추가 짧은 휴식 동작",
-                            "_hint": "캐릭터가 짧은 휴식 동안 추가로 취할 수 있는 짧은 휴식 동작의 수입니다.."
+                            "_hint": "캐릭터가 짧은 휴식 동안 추가로 취할 수 있는 짧은 휴식 동작의 수입니다."
                         },
                         "longRestMoves": {
                             "_label": "짧은 휴식: 추가 긴 휴식 동작",
@@ -1757,13 +1757,13 @@
             "Damage": {
                 "severe": "심각",
                 "major": "중상",
-                "minor": "경",
+                "minor": "경상",
                 "none": "없음",
                 "allDamage": "모든 피해",
                 "physicalDamage": "물리 피해",
                 "magicalDamage": "마법 피해",
                 "primaryWeapon": "주 무기 피해",
-                "secondaryWeapon": "보조 무기 피"
+                "secondaryWeapon": "보조 무기 피해"
             },
             "DamageResistance": {
                 "none": "없음",
@@ -1948,659 +1948,649 @@
             "Tabs": {
                 "details": "세부사항",
                 "attack": "공격",
-                "experiences": "경험들",
+                "experiences": "경험",
                 "features": "기능",
-                "actions": "행동들",
+                "actions": "행동",
                 "potentialAdversaries": "잠재적 적대자",
-                "adversaries": "적대자들",
+                "adversaries": "적대자",
                 "advancement": "레벨 상승",
                 "selections": "성장 선택지",
                 "summary": "요약",
-                "effects": "효과들",
+                "effects": "효과",
                 "settings": "설정",
                 "description": "설명",
                 "main": "데이터",
                 "information": "정보",
                 "notes": "메모",
-                "inventory": "인벤토리",
-                "loadout": "손패",
-                "vault": "덱",
+                "inventory": "소지품",
+                "loadout": "장비",
+                "vault": "보관소",
                 "heritage": "유산",
-                "story": "스토리",
+                "story": "이야기",
                 "biography": "전기",
                 "general": "일반",
                 "foundation": "기초",
-                "specialization": "전문화",
-                "mastery": "숙련",
+                "specialization": "전문",
+                "mastery": "통달",
                 "optional": "선택",
                 "recovery": "회복",
                 "setup": "설정",
                 "equipment": "장비",
                 "attachments": "부착물",
-                "advanced": "고급",
-                "tier1": "계층 1",
-                "tier2": "계층 2",
-                "tier3": "계층 3",
-                "tier4": "계층 4",
+                "advanced": "향상",
+                "tier1": "티어 1",
+                "tier2": "티어 2",
+                "tier3": "티어 3",
+                "tier4": "티어 4",
                 "domains": "권역",
-                "downtime": "비활동 시간",
+                "downtime": "휴식 시간",
                 "rules": "규칙"
             },
             "Tiers": {
-                "1": "Rango 1",
-                "2": "Rango 2",
-                "3": "Rango 3",
-                "4": "Rango 4",
-                "singular": "Rango"
+                "1": "티어 1",
+                "2": "티어 2",
+                "3": "티어 3",
+                "4": "티어 4",
+                "singular": "티어"
             },
             "Trait": {
-                "single": "Atributo",
-                "plural": "Atributos"
+                "single": "특성",
+                "plural": "특성들"
             },
-            "actorName": "Nombre del actor",
-            "amount": "Cantidad",
-            "any": "Cualquiera",
-            "armor": "Armadura",
-            "armorScore": "Valor de armadura",
-            "activeEffects": "Efectos activos",
-            "armorSlots": "Armadura",
-            "attack": "Ataque",
-            "basics": "Básicos",
-            "bonus": "Bonificador",
-            "burden": "Carga",
-            "continue": "Continuar",
-            "criticalSuccess": "Éxito crítico",
-            "criticalShort": "Crítico",
-            "d20Roll": "Tirada de D20",
-            "damage": "Daño",
-            "damageRoll": "Tirada de daño",
-            "damageType": "Tipo de daño",
-            "description": "Descripción",
-            "difficulty": "Dificultad",
-            "downtime": "Tiempo de inactividad",
-            "dropActorsHere": "Arrastra Actores aquí",
-            "dropFeaturesHere": "Arrastra Rasgos aquí",
-            "duality": "Dualidad",
-            "dualityRoll": "Tirada dual",
-            "enabled": "Habilitado",
-            "evasion": "Evasión",
-            "equipment": "Equipo",
+            "actorName": "액터 이름",
+            "amount": "수량",
+            "any": "임의",
+            "armor": "방어구",
+            "armorScore": "방어도",
+            "activeEffects": "활성 효과",
+            "armorSlots": "방어 슬롯",
+            "attack": "공격",
+            "basics": "기본",
+            "bonus": "보너스",
+            "burden": "무게",
+            "continue": "계속",
+            "criticalSuccess": "치명적 성공",
+            "criticalShort": "치명타",
+            "d20Roll": "D20 굴림",
+            "damage": "피해",
+            "damageRoll": "피해 굴림",
+            "damageType": "피해 유형",
+            "description": "설명",
+            "difficulty": "난이도",
+            "downtime": "휴식 시간",
+            "dropActorsHere": "액터를 여기에 끌어오세요",
+            "dropFeaturesHere": "기능을 여기에 끌어오세요",
+            "duality": "이중성",
+            "dualityRoll": "이중성 굴림",
+            "enabled": "활성화됨",
+            "evasion": "회피",
+            "equipment": "장비",
             "experience": {
-                "single": "Experiencia",
-                "plural": "Experiencias"
+                "single": "경험",
+                "plural": "경험들"
             },
-            "failure": "Fallo",
-            "fear": "Miedo",
-            "features": "Rasgos",
-            "formula": "Fórmula",
-            "healing": "Curación",
-            "healingRoll": "Tirada de curación",
+            "failure": "실패",
+            "fear": "공포",
+            "features": "기능",
+            "formula": "수식",
+            "healing": "치유",
+            "healingRoll": "치유 굴림",
             "hit": {
-                "single": "Golpe",
-                "plural": "Golpes"
+                "single": "명중",
+                "plural": "명중들"
             },
             "HitPoints": {
-                "single": "Punto de golpe",
-                "plural": "Puntos de golpe",
-                "short": "PG"
+                "single": "HP",
+                "plural": "HP",
+                "short": "HP"
             },
-            "hope": "Esperanza",
-            "hordeHp": "PG de horda",
-            "identify": "Identidad",
-            "imagePath": "Ruta de imagen",
-            "inactiveEffects": "Efectos inactivos",
-            "inventory": "Inventario",
-            "itemResource": "Recurso del objeto",
-            "label": "Etiqueta",
-            "level": "Nivel",
-            "levelShort": "Nv",
-            "levelUp": "Subida de nivel",
-            "loadout": "Mano",
-            "max": "Máx",
+            "hope": "희망",
+            "hordeHp": "무리 HP",
+            "identify": "정체성",
+            "imagePath": "이미지 경로",
+            "inactiveEffects": "비활성 효과",
+            "inventory": "소지품",
+            "itemResource": "아이템 자원",
+            "label": "레이블",
+            "level": "레벨",
+            "levelShort": "Lv",
+            "levelUp": "레벨 상승",
+            "loadout": "장",
+            "max": "최대",
             "miss": {
-                "single": "Fallo",
-                "plural": "Fallos"
+                "single": "실패",
+                "plural": "실패들"
             },
-            "maxWithThing": "Máximo {thing}",
-            "multiclass": "Multiclase",
-            "newCategory": "Nueva categoría",
-            "none": "Ninguno",
-            "noTarget": "Ningún objetivo",
-            "partner": "Compañero",
-            "proficiency": "Competencia",
-            "quantity": "Cantidad",
-            "range": "Alcance",
-            "reactionRoll": "Tirada de Reacción",
-            "recovery": "Recuperación",
-            "reroll": "Volver a tirar",
-            "rerollThing": "Volver a tirar {thing}",
-            "resource": "Recurso",
-            "roll": "Tirar",
-            "rollAll": "Tirar todo",
-            "rollDamage": "Tirar daño",
-            "rollWith": "Tirada de {roll}",
-            "save": "Guardar",
-            "scalable": "Escalable",
-            "situationalBonus": "Bonificador situacional",
-            "stress": "Estrés",
-            "success": "Éxito",
-            "take": "Coger",
+            "maxWithThing": "최대 {thing}",
+            "multiclass": "멀티클래스",
+            "newCategory": "새 카테고리",
+            "none": "없음",
+            "noTarget": "대상 없음",
+            "partner": "동료",
+            "proficiency": "숙련",
+            "quantity": "수량",
+            "range": "거리",
+            "reactionRoll": "대응 굴림",
+            "recovery": "회복",
+            "reroll": "재굴림",
+            "rerollThing": "{thing} 재굴림",
+            "resource": "자원",
+            "roll": "굴림",
+            "rollAll": "전부 굴림",
+            "rollDamage": "피해 굴림",
+            "rollWith": "{roll} 굴림",
+            "save": "저장",
+            "scalable": "확장 가능",
+            "situationalBonus": "상황 보너스",
+            "stress": "스트레스",
+            "success": "성공",
+            "take": "획득",
             "Target": {
-                "single": "Objetivo",
-                "plural": "Objetivos"
+                "single": "대상",
+                "plural": "대상"
             },
-            "title": "Título",
-            "total": "Total",
-            "true": "Cierto",
-            "type": "Tipo",
-            "unarmed": "Desarmado",
-            "unarmedStrike": "Ataque desarmado",
-            "unarmored": "Sin armadura",
-            "use": "Uso",
-            "used": "Usado",
-            "uses": "Usos",
-            "value": "Valor",
-            "withThing": "Con {thing}",
-            "_unarmedAttack": "Unarmed Attack"
+            "title": "칭호",
+            "total": "총합",
+            "true": "참",
+            "type": "유형",
+            "unarmed": "비무장",
+            "unarmedStrike": "비무장 공격",
+            "unarmored": "방어구 없음",
+            "use": "사용",
+            "used": "사용됨",
+            "uses": "사용 횟수",
+            "value": "값",
+            "withThing": "{thing}와 함께",
+            "_unarmedAttack": "비무장 공격"
         },
         "ITEMS": {
             "FIELDS": {
                 "resource": {
                     "amount": {
-                        "label": "Cantidad"
+                        "label": "수량"
                     },
                     "dieFaces": {
-                        "label": "Caras del dado"
+                        "label": "주사위 면"
                     },
                     "icon": {
-                        "label": "Icono"
+                        "label": "아이콘"
                     },
                     "max": {
-                        "label": "Máx"
+                        "label": "최대"
                     },
                     "progression": {
-                        "label": "Progresión"
+                        "label": "진행도"
                     },
                     "recovery": {
-                        "label": "Recuperación"
+                        "label": "회복"
                     },
                     "type": {
-                        "label": "Tipo"
+                        "label": "유형"
                     },
                     "value": {
-                        "label": "Valor"
+                        "label": "값"
                     }
                 }
             },
             "Ancestry": {
-                "primaryFeature": "Rasgo principal",
-                "secondaryFeature": "Rasgo secundario"
+                "primaryFeature": "주 기능",
+                "secondaryFeature": "보조 기능"
             },
             "Armor": {
-                "baseScore": "Valor base",
+                "baseScore": "기본 값",
                 "baseThresholds": {
-                    "base": "Límites base",
-                    "major": "Límite Mayor",
-                    "severe": "Límite Severo"
+                    "base": "기본 임계치",
+                    "major": "중상 임계치",
+                    "severe": "심각 임계치"
                 }
             },
             "Beastform": {
                 "FIELDS": {
                     "beastformType": {
-                        "_label": "Beastform Type"
+                        "_label": "야수 형태 유형"
                     },
                     "tier": {
-                        "_label": "Tier"
+                        "_label": "티어"
                     },
                     "mainTrait": {
-                        "_label": "Main Trait"
+                        "_label": "주요 특성"
                     },
                     "examples": {
-                        "_label": "Examples"
+                        "_label": "예시"
                     },
                     "advantageOn": {
-                        "_label": "Gain Advantage On"
+                        "_label": "이점을 얻는 상황"
                     },
                     "tokenImg": {
-                        "_label": "Token Image"
+                        "_label": "토큰 이미지지"
                     },
                     "tokenRingImg": {
-                        "_label": "Subject Texture"
+                        "_label": "주제 텍스쳐"
                     },
                     "tokenSize": {
-                        "_placeholder": "Using character dimensions",
+                        "_placeholder": "캐릭터 크기 사용",
                         "height": {
-                            "_label": "Height"
+                            "_label": "높이"
                         },
                         "width": {
-                            "_label": "Width"
+                            "_label": "너비"
                         }
                     },
                     "evolved": {
                         "maximumTier": {
-                            "_label": "Maximum Tier"
+                            "_label": "최대 티어"
                         },
                         "mainTraitBonus": {
-                            "_label": "Main Trait Bonus"
+                            "_label": "주 특성 보너스"
                         }
                     },
                     "hybrid": {
                         "beastformOptions": {
-                            "_label": "Nr Beastforms"
+                            "_label": "야수 형태 수"
                         },
                         "advantages": {
-                            "_label": "Nr Advantages"
+                            "_label": "이점 수"
                         },
                         "features": {
-                            "_label": "Nr Features"
+                            "_label": "기능 수"
                         }
                     }
                 },
-                "_attackName": "Beast Attack",
-                "_beastformEffect": "Beastform Transformation",
-                "_dialogTitle": "Beastform Selection",
-                "_tokenTitle": "Beastform Token",
-                "_transform": "Transform",
-                "_evolve": "Evolve",
-                "_evolvedFeatureTitle": "Evolved",
-                "_evolvedDrag": "Drag a form here to evolve it.",
-                "_hybridize": "Hybridize",
-                "_hybridizeFeatureTitle": "Hybrid Features",
-                "_hybridizeDrag": "Drag a form here to hybridize it."
+                "_attackName": "야수 공격",
+                "_beastformEffect": "야수 형태 변신",
+                "_dialogTitle": "야수 형태 선택",
+                "_tokenTitle": "야수 형태 토큰",
+                "_transform": "변신",
+                "_evolve": "진화",
+                "_evolvedFeatureTitle": "진화됨",
+                "_evolvedDrag": "이곳으로 형태를 끌어와 진화시키세요.",
+                "_hybridize": "복합",
+                "_hybridizeFeatureTitle": "복합 기능",
+                "_hybridizeDrag": "이곳으로 형태를 끌어와 혼합하세요."
             },
             "Class": {
-                "hopeFeatures": "Rasgos de Esperanza",
-                "classFeatures": "Rasgos de Clase",
+                "hopeFeatures": "희망 기능",
+                "classFeatures": "클래스 기능",
                 "guide": {
-                    "suggestedEquipment": "Equipo sugerido",
-                    "suggestedPrimaryWeaponTitle": "Arma principal",
-                    "suggestedSecondaryWeaponTitle": "Arma secundaria",
-                    "suggestedArmorTitle": "Armadura",
+                    "suggestedEquipment": "추천 장비",
+                    "suggestedPrimaryWeaponTitle": "주 무기",
+                    "suggestedSecondaryWeaponTitle": "보조 무기",
+                    "suggestedArmorTitle": "방어구",
                     "inventory": {
-                        "thenChoose": "Luego escoge entre",
-                        "andEither": "y entre"
+                        "thenChoose": "그 다음 선택:",
+                        "andEither": "그리고 다음 중 하나:"
                     }
                 }
             },
             "Consumable": {
-                "consumeOnUse": "Consumir al usar"
+                "consumeOnUse": "사용 시 소모"
             },
             "DomainCard": {
-                "type": "Tipo",
-                "recallCost": "Coste de Recuerdo",
-                "foundationTitle": "Base",
-                "specializationTitle": "Especialización",
-                "masteryTitle": "Maestría"
+                "type": "유형",
+                "recallCost": "회상 비용,
+                "foundationTitle": "기초",
+                "specializationTitle": "전문",
+                "masteryTitle": "통달"
             },
             "Subclass": {
-                "spellcastingTrait": "Atributo de lanzamiento de conjuros"
+                "spellcastingTrait": "주문시전 특성"
             },
             "Weapon": {
-                "weaponType": "Tipo de arma",
-                "primaryWeapon": "Arma principal",
-                "secondaryWeapon": "Arma secundaria"
+                "weaponType": "무기 유형",
+                "primaryWeapon": "주 무기",
+                "secondaryWeapon": "보조 무기"
             }
         },
         "SETTINGS": {
             "Appearance": {
                 "FIELDS": {
                     "displayFear": {
-                        "_label": "Fear Display"
+                        "_label": "공포 표시"
                     },
                     "dualityColorScheme": {
-                        "_label": "Chat Style"
+                        "_label": "채팅 스타일"
                     },
                     "showGenericStatusEffects": {
-                        "_label": "Show Foundry Status Effects"
+                        "_label": "파운더리 상태 효과 표시"
                     },
-                    "_expandedTitle": "Auto-expand Descriptions",
+                    "_expandedTitle": "설명 자동 확장",
                     "extendCharacterDescriptions": {
-                        "_label": "Characters"
+                        "_label": "캐릭터"
                     },
                     "extendAdversaryDescriptions": {
-                        "_label": "Adversaries"
+                        "_label": "적대자"
                     },
                     "extendEnvironmentDescriptions": {
-                        "_label": "Environments"
+                        "_label": "환경"
                     },
                     "extendItemDescriptions": {
-                        "_label": "Items"
+                        "_label": "아이템"
                     }
                 },
                 "fearDisplay": {
-                    "_token": "Tokens",
-                    "_bar": "Bar",
-                    "_hide": "Hide"
+                    "_token": "토큰",
+                    "_bar": "바",
+                    "_hide": "숨기"
                 }
             },
             "Automation": {
                 "fear": {
-                    "_name": "Fear",
-                    "_hint": "Automatically increase the GM's fear pool on a fear duality roll result."
+                    "_name": "공",
+                    "_hint": "공포 이중성 굴림 결과가 나오면 GM의 공포 풀을 자동으로 증가시킵니다"
                 },
                 "FIELDS": {
                     "damageReductionRulesDefault": {
-                        "_label": "Damage Reduction Rules Default",
-                        "_hint": "Wether using armor and reductions has rules on by default"
+                        "_label": "피해 감소 규칙 기본값",
+                        "_hint": "방어구와 피해 감소 규칙이 기본적으로 적용되는지 여부"
                     },
                     "defeated": {
                         "enabled": {
-                            "_label": "Enabled"
+                            "_label": "활성화됨"
                         },
                         "overlay": {
-                            "_label": "Overlay Effect"
+                            "_label": "오버레이 효과"
                         },
                         "characterDefault": {
-                            "_label": "Character Default Defeated Status"
+                            "_label": "캐릭터 기본 패배 상태"
                         },
                         "adversaryDefault": {
-                            "_label": "Adversary Default Defeated Status"
+                            "_label": "적대자 기본 패배 상태"
                         },
                         "companionDefault": {
-                            "_label": "Companion Default Defeated Status"
+                            "_label": "동료 기본 패배 상태"
                         }
                     },
                     "hopeFear": {
-                        "_label": "Hope & Fear",
+                        "_label": "희망 & 공포",
                         "gm": {
                             "_label": "GM"
                         },
                         "players": {
-                            "_label": "Players"
+                            "_label": "플레이어"
                         }
                     },
                     "levelupAuto": {
-                        "_label": "Levelup Automation",
-                        "_hint": "When you've made your choices and finish levelup, the numerical changes are automatically applied to your character."
+                        "_label": "레벨업 자동화",
+                        "_hint": "선택을 완료하고 레벨업을 마치면, 수치 변화가 자동으로 캐릭터에 적용됩니다."
                     },
                     "actionPoints": {
-                        "_label": "Action Points",
-                        "_hint": "Automatically give and take Action Points as combatants take their turns."
+                        "_label": "행동 점수",
+                        "_hint": "전투자가 턴을 진행할 때 자동으로 행동 점수를 부여하거나 회수합니다."
                     },
                     "hordeDamage": {
-                        "_label": "Automatic Horde Damage",
-                        "_hint": "Automatically active horde effect to lower damage when reaching half or lower HP."
+                        "_label": "자동 무리 피해",
+                        "_hint": "무리 HP 절반 이하가 되면 자동으로 피해 감소 효과가 발동합니다."
                     },
                     "effects": {
                         "rangeDependent": {
-                            "_label": "Effect Range Dependent",
-                            "_hint": "Effects with defined range dependency will automatically turn on/off depending on range"
+                            "_label": "효과 범위 의존",
+                            "_hint": "범위 의존성이 정의된 효과는 범위에 따라 자동으로 켜지거나 꺼집니다."
                         }
                     },
                     "resourceScrollTexts": {
-                        "_label": "Show Resource Change Scrolltexts",
-                        "_hint": "When a character is damaged, uses armor etc, a scrolling text will briefly appear by the token to signify this."
+                        "_label": "자원 변화 스크롤 텍스트 표시",
+                        "_hint": "캐릭터가 피해를 받거나 방어구를 사용하는 경우, 이를 나타내는 스크롤 텍스트가 토큰 옆에 잠시 나타납니다."
                     },
                     "playerCanEditSheet": {
-                        "_label": "Players Can Manually Edit Character Settings",
-                        "_hint": "Players are allowed to access the manual Character Settings and change their statistics beyond the rules."
+                        "_label": "플레이어 캐릭터 설정 수동 편집 가능s",
+                        "_hint": "플레이어가 규칙을 넘어 수동 캐릭터 설정에 접근하여 능력치를 변경할 수 있습니다."
                     }
                 },
                 "defeated": {
-                    "_title": "Defeated Handling"
+                    "_title": "패배 처리리"
                 }
             },
             "Homebrew": {
-                "_newDowntimeMove": "Downtime Move",
-                "_downtimeMoves": "Downtime Moves",
-                "_nrChoices": "# Moves Per Rest",
-                "_resetMovesTitle": "Reset {type} Downtime Moves",
-                "_resetMovesText": "Are you sure you want to reset?",
+                "_newDowntimeMove": "휴식 동작",
+                "_downtimeMoves": "휴식 동작들",
+                "_nrChoices": "# 휴식당 동작 수",
+                "_resetMovesTitle": "{type} 휴 동작 초기화",
+                "_resetMovesText": "정말로 초기화하시겠습니까?",
                 "FIELDS": {
                     "maxFear": {
-                        "_label": "Max Fear"
+                        "_label": "최대 공포"
                     },
                     "traitArray": {
-                        "_label": "Initial Trait Modifiers"
+                        "_label": "초기 특성 수정치"
                     },
                     "maxLoadout": {
-                        "_label": "Max Cards in Loadout",
-                        "_hint": "Set to blank or 0 for unlimited maximum"
+                        "_label": "장비한 최대 카드 수",
+                        "_hint": "빈칸 또는 0으로 설정하면 무제한"
                     },
                     "maxDomains": {
-                        "_label": "Max Class Domains",
-                        "_hint": "Max domains you can set on a class"
+                        "_label": "클래스 권역 최대치",
+                        "_hint": "클래스에 설정할 수 있는 최대 권역 수"
                     }
                 },
                 "currency": {
-                    "_enabled": "Enable Overrides",
-                    "_title": "Currency Overrides",
-                    "_currencyName": "Currency Name",
-                    "_coinName": "Coin Name",
-                    "_handfulName": "Handful Name",
-                    "_bagName": "Bag Name",
-                    "_chestName": "Chest Name"
+                    "_enabled": "통화 덮어쓰기 활성화",
+                    "_title": "통화 덮어쓰기",
+                    "_currencyName": "통화 이름",
+                    "_coinName": "코인 이름",
+                    "_handfulName": "한 줌 이름",
+                    "_bagName": "가방 이름",
+                    "_chestName": "상자 이름"
                 },
                 "domains": {
-                    "_domainsTitle": "Base Domains",
-                    "_homebrewDomains": "Homebrew Domains",
-                    "_newDomain": "New Domain",
-                    "_newDomainInputTitle": "Create Homebrew Domain",
-                    "_newDomainInputLabel": "New Domain Name",
-                    "_newDomainInputHint": "This cannot be altered later",
-                    "_editDomain": "Active Domain",
-                    "_deleteDomain": "Delete Domain",
-                    "_deleteDomainText": "Are you sure you want to delete the {name} domain? It will be immediately removed from all Actors in this world where it's currently used. Compendiums are not cleared.",
-                    "_duplicateDomain": "There is already a domain with this identification."
+                    "_domainsTitle": "기본 권역",
+                    "_homebrewDomains": "홈브류 권역",
+                    "_newDomain": "새 권역",
+                    "_newDomainInputTitle": "홈브류 권역 생성",
+                    "_newDomainInputLabel": "새 권역 이름",
+                    "_newDomainInputHint": "이후에는 변경할 수 없습니다",
+                    "_editDomain": "활성 권역",
+                    "_deleteDomain": "권역 삭제",
+                    "_deleteDomainText": "{name} 권역을 삭제하시겠습니까? 이 권역은 현재 사용 중인 이 월드의 모든 액터에게서 즉시 제거됩니다. 자료집(Compendiums)은 삭제되지 않습니다.",
+                    "_duplicateDomain": "이미 동일한 식별자를 가진 권역이 존재합니다."
                 }
             },
             "Menu": {
-                "_title": "Daggerheart Game Settings",
+                "_title": "대거하트 게임 설정",
                 "automation": {
-                    "_name": "Automation Settings",
-                    "_label": "Configure Automation",
-                    "_hint": "Various settings automating resource management and more"
+                    "_name": "자동화 설정",
+                    "_label": "자동화 구성",
+                    "_hint": "자원 관리 등 여러 요소를 자동화하는 설정"
                 },
                 "homebrew": {
-                    "_name": "Homebrew Settings",
-                    "_label": "Configure Homebrew",
-                    "_hint": "Various settings allowing extensions to types or altered game rules"
+                    "_name": "홈브류 설정",
+                    "_label": "홈브류 구성",
+                    "_hint": "유형 확장이나 변경된 게임 규칙을 허용하는 설정"
                 },
                 "range": {
-                    "_name": "Range Settings",
-                    "_label": "Configure Range Handling",
-                    "_hint": "System ruler setup for displaying ranges in Daggerheart"
+                    "_name": "거리 설정",
+                    "_label": "거리 구성",
+                    "_hint": "대거하트에서 거리를 표시하기 위한 자 측정 설정"
                 },
                 "appearance": {
-                    "_title": "Appearance Settings",
-                    "_label": "Appearance Settings",
-                    "_hint": "Modify the look of various parts of the system",
-                    "_name": "Appearance Settings",
-                    "_duality": "Duality Rolls",
+                    "_title": "외형 설정",
+                    "_label": "외형 설정",
+                    "_hint": "시스템의 다양한 부분의 외형을 수정",
+                    "_name": "외형 설정",
+                    "_duality": "이중성 굴림",
                     "diceSoNice": {
                         "_title": "Dice So Nice",
-                        "_hint": "Coloration of Duality dice if the Dice So Nice module is used.",
-                        "_foreground": "Foreground",
-                        "_background": "Background",
-                        "_outline": "Outline",
-                        "_edge": "Edge",
-                        "_texture": "Texture",
-                        "_colorset": "Theme",
-                        "_material": "Material",
-                        "_system": "Dice Preset"
+                        "_hint": "Dice So Nice 모듈을 사용할 경우 이중성 주사위의 색상을 설정합니다.",
+                        "_foreground": "전경",
+                        "_background": "배경",
+                        "_outline": "외곽선",
+                        "_edge": "모서리",
+                        "_texture": "질감",
+                        "_colorset": "테마",
+                        "_material": "재질",
+                        "_system": "주사위 프리셋"
                     }
                 },
                 "variantRules": {
-                    "_title": "Variant Rules",
-                    "_label": "Variant Rules",
-                    "_hint": "Apply variant rules from the Daggerheart system",
-                    "_name": "Variant Rules",
-                    "_actionTokens": "Action Tokens"
+                    "_title": "변형 규칙",
+                    "_label": "변형 규칙",
+                    "_hint": "대거하트 시스템의 변형 규칙 적용",
+                    "_name": "변형 규칙",
+                    "_actionTokens": "행동 토큰"
                 }
             },
             "Resources": {
                 "fear": {
-                    "_name": "Fear",
-                    "_hint": "The Fear pool of the GM."
+                    "_name": "공",
+                    "_hint": "GM의 공포 풀입니다."
                 }
             },
             "VariantRules": {
                 "FIELDS": {
                     "actionTokens": {
                         "enabled": {
-                            "_label": "Enabled"
+                            "_label": "활성화됨"
                         },
                         "tokens": {
-                            "_label": "Tokens"
+                            "_label": "토"
                         }
                     }
                 }
             },
             "ResetSettings": {
-                "_resetConfirmationTitle": "Reset Settings",
-                "_resetConfirmationText": "Are you sure you want to reset the {settings}?"
+                "_resetConfirmationTitle": "설정 초기",
+                "_resetConfirmationText": "{settings}을(를) 정말로 초기화하시겠습니까?"
             }
         },
         "UI": {
             "Chat": {
                 "action": {
-                    "title": "Acción"
+                    "title": "행동"
                 },
                 "applyEffect": {
-                    "title": "Aplicar efectos - {name}"
+                    "title": "효과 적용 - {name}"
                 },
                 "attackRoll": {
-                    "title": "Ataque - {attack}",
-                    "rollDamage": "Tirar daño",
-                    "rollHealing": "Tirar sanación",
-                    "applyEffect": "Aplicar efectos"
+                    "title": "공격 - {attack}",
+                    "rollDamage": "피해 굴림",
+                    "rollHealing": "치유 굴림",
+                    "applyEffect": "효과 적용"
                 },
                 "damageRoll": {
-                    "title": "Daño - {damage}",
-                    "dealDamageToTargets": "Objetivos del daño",
-                    "dealDamage": "Aplicar daño",
-                    "rollDamage": "Tirar daño",
-                    "hitTarget": "Golpear",
-                    "selectedTarget": "Seleccionado",
-                    "currentTarget": "Actual"
+                    "title": "피해 - {damage}",
+                    "dealDamageToTargets": "피해 대상",
+                    "dealDamage": "피해 적용",
+                    "rollDamage": "피해 굴림",
+                    "hitTarget": "명중",
+                    "selectedTarget": "선택됨",
+                    "currentTarget": "현재"
                 },
                 "deathMove": {
-                    "title": "Movimiento de muerte"
+                    "title": "죽음 동작"
                 },
                 "dicePool": {
-                    "title": "Reserva de dados"
+                    "title": "주사위 풀"
                 },
                 "domainCard": {
-                    "title": "Carta de dominio"
+                    "title": "권역 카드"
                 },
                 "dualityRoll": {
-                    "abilityCheckTitle": "Tirada de {ability}"
+                    "abilityCheckTitle": "{ability} 굴림"
                 },
-                "featureTitle": "Rasgo de clase",
+                "featureTitle": "클래스 기능",
                 "healingRoll": {
-                    "title": "Curar - {damage}",
-                    "heal": "Curar",
-                    "applyHealing": "Aplicar curación"
+                    "title": "치유 - {damage}",
+                    "heal": "치유",
+                    "applyHealing": "치유 적용"
                 },
                 "reroll": {
-                    "confirmTitle": "Volver a tirar dados",
-                    "confirmText": "¿Seguro que quieres volver a tirar?"
+                    "confirmTitle": "주사위 재굴림",
+                    "confirmText": "정말로 다시 굴리시겠습니까?"
                 },
                 "resourceRoll": {
-                    "playerMessage": "{user} ha vuelto a tirar su {name}"
+                    "playerMessage": "{user} 님이 자신의 {name}을(를) 다시 굴렸습니다."
                 }
             },
             "Notifications": {
-                "_adversaryMissing": "The linked adversary doesn't exist in the world.",
-                "_beastformInapplicable": "A beastform can only be applied to a Character.",
-                "_beastformAlreadyApplied": "The character already has a beastform applied!",
-                "_noTargetsSelected": "No targets are selected.",
-                "_attackTargetDoesNotExist": "The target token no longer exists",
-                "_insufficentAdvancements": "You don't have enough advancements left.",
-                "_noAssignedPlayerCharacter": "You have no assigned character.",
-                "_noSelectedToken": "You have no selected token",
-                "_onlyUseableByPC": "This can only be used with a PC token",
-                "_dualityParsing": "Duality roll not properly formated",
-                "_attributeFaulty": "The supplied Attribute doesn't exist",
-                "_domainCardWrongDomain": "You don't have access to that Domain",
-                "_domainCardToHighLevel": "The Domain Card is too high level to be selected",
-                "_domainCardDuplicate": "You already have that domain card!",
-                "_noSelectionsLeft": "Nothing more to select!",
-                "_alreadySelectedClass": "You already have that class!",
-                "_classAlreadySelected": "The character already has a class",
-                "_subclassAlreadySelected": "The character already has a subclass for that class.",
-                "_noClassSelected": "Your character has no class selected!",
-                "_lacksDomain": "Your character doesn't have the domain of the card!",
-                "_duplicateDomainCard": "You already have a domain card with that name!",
-                "_missingClassOrSubclass": "The character doesn't have a class and subclass",
-                "_tooHighLevel": "You cannot raise the character level past the maximum",
-                "_tooLowLevel": "You cannot lower the character level below starting level",
-                "_subclassNotInClass": "This subclass does not belong to your selected class.",
-                "_subclassNotInMulticlass": "This subclass does not belong to your selected multiclass.",
-                "_missingClass": "You don't have a class selected yet.",
-                "_missingMulticlass": "Missing multiclass",
-                "_wrongDomain": "The card isn't from one of your class domains.",
-                "_cardTooHighLevel": "The card is too high level!",
-                "_duplicateCard": "You cannot select the same card more than once.",
-                "_notPrimary": "The weapon is not a primary weapon!",
-                "_notSecondary": "The weapon is not a secondary weapon!",
-                "_itemTooHighTier": "The item must be from Tier1",
-                "_primaryIsTwoHanded": "Cannot select a secondary weapon with a two-handed primary!",
-                "_noMoreMoves": "You cannot select any more downtime moves",
-                "_damageAlreadyNone": "The damage has already been reduced to none",
-                "_noAvailableArmorMarks": "You have no more available armor marks",
-                "_notEnoughStress": "You don't have enough stress",
-                "_damageIgnore": "{character} did not take damage",
-                "_featureIsMissing": "Feature is missing",
-                "_actionIsMissing": "Action is missing",
-                "_attackIsMissing": "Attack is missing",
-                "_unownedActionMacro": "Cannot make a Use macro for an Action not on your character",
-                "_unownedAttackMacro": "Cannot make a Use macro for an Attack that doesn't belong to one of your characters",
-                "_featureNotHope": "This feature is used as something else than a Hope feature and cannot be used here.",
-                "_featureNotClass": "This feature is used as something else than a Class feature and cannot be used here.",
-                "_featureNotPrimary": "This feature is used as something else than a Primary feature and cannot be used here.",
-                "_featureNotSecondary": "This feature is used as something else than a Secondary feature and cannot be used here.",
-                "_featureNotFoundation": "This feature is used as something else than a Foundation feature and cannot be used here.",
-                "_featureNotSpecialization": "This feature is used as something else than a Specialization feature and cannot be used here.",
-                "_featureNotMastery": "This feature is used as something else than a Mastery feature and cannot be used here.",
-                "_beastformMissingEffect": "The Beastform is missing a Beastform Effect. Cannot be used.",
-                "_beastformToManyAdvantages": "You cannot select any more advantages.",
-                "_beastformToManyFeatures": "You cannot select any more features.",
-                "_beastformEquipWeapon": "You cannot use weapons while in a Beastform.",
-                "_loadoutMaxReached": "You've reached maximum loadout. Move atleast one domain card to the vault, or increase the limit in homebrew settings if desired.",
-                "_domainMaxReached": "You've reached the maximum domains for the class. Increase the limit in homebrew settings if desired.",
-                "_insufficientResources": "You have insufficient resources",
-                "_multiclassAlreadyPresent": "You already have a class and multiclass",
-                "_subclassesAlreadyPresent": "You already have a class and multiclass subclass",
-                "_noDiceSystem": "Your selected dice {system} does not have a {faces} dice"
+                "_adversaryMissing": "연결된 적대자가 이 월드에 존재하지 않습니다.",
+                "_beastformInapplicable": "야수 형태는 캐릭터에게만 적용할 수 있습니다.",
+                "_beastformAlreadyApplied": "이 캐릭터는 이미 야수 형태가 적용되어 있습니다!",
+                "_noTargetsSelected": "선택된 대상이 없습니다.",
+                "_attackTargetDoesNotExist": "대상 토큰이 더 이상 존재하지 않습니다.",
+                "_insufficentAdvancements": "남아 있는 성장 포인트가 부족합니다.",
+                "_noAssignedPlayerCharacter": "할당된 캐릭터가 없습니다.",
+                "_noSelectedToken": "선택된 토큰이 없습니다.",
+                "_onlyUseableByPC": "이 기능은 PC 토큰에서만 사용할 수 있습니다.",
+                "_dualityParsing": "이중성 굴림이 올바르게 형식화되지 않았습니다.",
+                "_attributeFaulty": "제공된 능력치가 존재하지 않습니다.",
+                "_domainCardWrongDomain": "해당 권역에 접근할 수 없습니다.",
+                "_domainCardToHighLevel": "이 권역 카드는 선택하기에 레벨이 너무 높습니다.",
+                "_domainCardDuplicate": "이미 해당 권역 카드를 보유하고 있습니다!",
+                "_noSelectionsLeft": "더 이상 선택할 것이 없습니다!",
+                "_alreadySelectedClass": "이미 이 클래스를 보유하고 있습니다!",
+                "_classAlreadySelected": "이 캐릭터는 이미 클래스를 가지고 있습니다.",
+                "_subclassAlreadySelected": "이 캐릭터는 해당 클래스의 서브 클래스를 이미 가지고 있습니다.",
+                "_noClassSelected": "당신의 캐릭터는 클래스가 선택되지 않았습니다!",
+                "_lacksDomain": "당신의 캐릭터는 이 카드의 권역을 가지고 있지 않습니다!",
+                "_duplicateDomainCard": "이미 같은 이름의 권역 카드를 보유하고 있습니다!",
+                "_missingClassOrSubclass": "이 캐릭터는 클래스와 서브 클래스를 가지고 있지 않습니다.",
+                "_tooHighLevel": "캐릭터 레벨을 최대치를 초과해 올릴 수 없습니다.",
+                "_tooLowLevel": "캐릭터 레벨을 시작 레벨 이하로 낮출 수 없습니다.",
+                "_subclassNotInClass": "이 서브 클래스는 선택된 클래스에 속하지 않습니다.",
+                "_subclassNotInMulticlass": "이 서브 클래스는 선택된 멀티클래스에 속하지 않습니다.",
+                "_missingClass": "아직 클래스가 선택되지 않았습니다.",
+                "_missingMulticlass": "멀티클래스가 없습니다.",
+                "_wrongDomain": "이 카드는 당신의 클래스 권역 중 하나가 아닙니다.",
+                "_cardTooHighLevel": "이 카드는 레벨이 너무 높습니다!",
+                "_duplicateCard": "같은 카드를 두 번 이상 선택할 수 없습니다.",
+                "_notPrimary": "이 무기는 주 무기가 아닙니다!",
+                "_notSecondary": "이 무기는 보조 무기가 아닙니다!",
+                "_itemTooHighTier": "이 아이템은 티어 1이어야 합니다.",
+                "_primaryIsTwoHanded": "양손 주 무기를 선택한 경우 보조 무기를 선택할 수 없습니다!",
+                "_noMoreMoves": "더 이상 휴식 동작을 선택할 수 없습니다.",
+                "_damageAlreadyNone": "피해가 이미 0으로 줄었습니다.",
+                "_noAvailableArmorMarks": "사용 가능한 방어 슬롯이 더 이상 없습니다.",
+                "_notEnoughStress": "스트레스가 충분하지 않습니다.",
+                "_damageIgnore": "{character} 은(는) 피해를 입지 않았습니다.",
+                "_featureIsMissing": "기능이 누락되었습니다.",
+                "_actionIsMissing": "행동이 누락되었습니다.",
+                "_attackIsMissing": "공격이 누락되었습니다.",
+                "_unownedActionMacro": "당신의 캐릭터에 없는 행동으로 매크로를 만들 수 없습니다.",
+                "_unownedAttackMacro": "당신의 캐릭터에 속하지 않은 공격으로 매크로를 만들 수 없습니다.",
+                "_featureNotHope": "이 기능은 희망 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_featureNotClass": "이 기능은 클래스 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_featureNotPrimary": "이 기능은 주요 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_featureNotSecondary": "이 기능은 보조 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_featureNotFoundation": "이 기능은 기초 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_featureNotSpecialization": "이 기능은 전문 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_featureNotMastery": "이 기능은 통달 기능이 아니므로 여기서 사용할 수 없습니다.",
+                "_beastformMissingEffect": "이 야수 형태에는 야수 형태태 효과가 없어 사용할 수 없습니다.",
+                "_beastformToManyAdvantages": "더 이상 이점을 선택할 수 없습니다.",
+                "_beastformToManyFeatures": "더 이상 기능을 선택할 수 없습니다.",
+                "_beastformEquipWeapon": "야수 형태 상태에서는 무기를 사용할 수 없습니다.",
+                "_loadoutMaxReached": "장비 최대치에 도달했습니다. 권역 카드를 최소 하나를 보관소로 옮기거나, 필요하다면 홈브류 설정에서 제한을 늘리십시오.",
+                "_domainMaxReached": "이 클래스의 권역 최대치에 도달했습니다. 필요하다면 홈브류 설정에서 제한을 늘리십시오.",
+                "_insufficientResources": "자원이 부족합니다.",
+                "_multiclassAlreadyPresent": "이미 클래스와 멀티클래스를 보유하고 있습니다.",
+                "_subclassesAlreadyPresent": "이미 클래스와 멀티클래스 서브브 클래스를 보유하고 있습니다.",
+                "_noDiceSystem": "선택된 주사위 {system}에는 {faces} 주사위가 없습니다."
             },
             "Tooltip": {
-                "disableEffect": "Deshabilitar Efecto",
-                "enableEffect": "Habilitar Efecto",
-                "openItemWorld": "Abrir mundo de objeto",
-                "openActorWorld": "Abrir mundo de actor",
-                "sendToChat": "Mandar al chat",
-                "maxEvasionClassBound": "Tu Evasión base está especificada en tu clase. Este es el incremento sobre esa base.",
-                "maxHPClassBound": "Tus PG base están especificados en tu clase. Este es el incremento sobre esa base.",
-                "moreOptions": "Más opciones",
-                "equip": "Equipar",
-                "unequip": "Desequiar",
-                "sendToVault": "Devolver al mazo",
-                "sendToLoadout": "Mandar a la mano",
-                "makeDeathMove": "Hacer un movimiento de muerte",
-                "rangeAndTarget": "Alcance y objetivo",
-                "dragApplyEffect": "Arrastra el efecto para aplicarlo a un actor",
-                "appliedEvenIfSuccessful": "Aplicado incluso si la salvación tuvo éxito",
-                "diceIsRerolled": "El dado ha sido tirado de nuevo (x{times})",
-                "pendingSaves": "Tiradas de reacción pendientes",
-                "openSheetSettings": "Abrir ajustes",
-                "compendiumBrowser": "Navegador de compendio",
-                "rulesOn": "Reglas activas",
-                "rulesOff": "Reglas inactivas",
-                "remainingUses": "Usa refresco en {type}",
-                "rightClickExtand": "Click derecho para expandir",
-                "companionPartnerLevelBlock": "El compañero necesita que el personaje asociado suba de nivel."
+                "disableEffect": "효과 비활성화",
+                "enableEffect": "효과 활성화",
+                "openItemWorld": "아이템 월드 열기",
+                "openActorWorld": 액터 월드 열기",
+                "sendToChat": "채팅에 보내기",
+                "maxEvasionClassBound": "당신의 기본 회피는 클래스에 의해 정해집니다. 이것은 그 기본치에 대한 증가분입니다.",
+                "maxHPClassBound": "당신의 기본 HP는 클래스에 의해 정해집니다. 이것은 그 기본치에 대한 증가분입니다.",
+                "moreOptions": "추가 옵션",
+                "equip": "장착",
+                "unequip": "장착 해제",
+                "sendToVault": "보관소로 반환",
+                "sendToLoadout": "장비로 보내기",
+                "makeDeathMove": "죽음 동작 실행",
+                "rangeAndTarget": "거리와 목표",
+                "dragApplyEffect": "효과를 끌어 액터에게 적용하세요",
+                "appliedEvenIfSuccessful": "저항에 성공하더라도 적용됩니다",
+                "diceIsRerolled": "주사위가 다시 굴려졌습니다 (x{times})",
+                "pendingSaves": "대응 굴림 대기 중",
+                "openSheetSettings": "시트 설정 열기",
+                "compendiumBrowser": "자료집 탐색기",
+                "rulesOn": "규칙 활성화",
+                "rulesOff": "규칙 비활성화",
+                "remainingUses": "{type}에서 남은 사용 횟수",
+                "rightClickExtand": "우클릭하여 확장",
+                "companionPartnerLevelBlock": "동료는 연결된 캐릭터가 레벨 업해야 합니다."
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
