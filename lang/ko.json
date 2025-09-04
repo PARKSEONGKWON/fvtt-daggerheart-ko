@@ -1502,168 +1502,168 @@
                     }
                 },
                 "persuasive": {
-                    "_name": "Persuasive",
-                    "_description": "Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result.",
+                    "_name": "설득",
+                    "_description": "매력 굴림 전에 스트레스를 표시하면, 결과에 +2 보너스를 얻음.",
                     "actions": {
                         "persuade": {
-                            "_name": "Persuade",
-                            "_description": "Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result."
+                            "_name": "설득",
+                            "_description": "매력 굴림 전에 스트레스를 표시하면, 결과에 +2 보너스를 얻음."
                         }
                     },
                     "effects": {
                         "persuasive": {
-                            "_name": "Persuasive",
-                            "_description": "Gain a +2 bonus to the Presence roll"
+                            "_name": "설득",
+                            "_description": "매력 굴림에 +2 보너스를 얻음."
                         }
                     }
                 },
                 "pompous": {
-                    "_name": "Pompous",
-                    "_description": "You must have a Presence of 0 or lower to use this weapon.",
+                    "_name": "거",
+                    "_description": "매력이 0 이하일 때만 이 무기를 사용할 수 있음.",
                     "actions": {
                         "pompous": {
-                            "_name": "Pompous",
-                            "_description": "You must have a Presence of 0 or lower to use this weapon."
+                            "_name": "거만",
+                            "_description": "매력이 0 이하일 때만 이 무기를 사용할 수 있음."
                         }
                     }
                 },
                 "powerful": {
-                    "_name": "Powerful",
-                    "_description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+                    "_name": "강력",
+                    "_description": "공격 성공 시 피해 주사위를 하나 더 굴리고 낮은 값을 버림.",
                     "effects": {
                         "powerful": {
-                            "_name": "Powerful",
-                            "_description": "On a successful attack, roll an additional damage die and discard the lowest result."
+                            "_name": "강력",
+                            "_description": "공격 성공 시 피해 주사위를 하나 더 굴리고 낮은 값을 버림."
                         }
                     }
                 },
                 "protective": {
-                    "_name": "Protective",
-                    "_description": "Add the item's Tier to your Armor Score",
+                    "_name": "방어",
+                    "_description": "해당 아이템의 티어를 당신의 방어도에 더합니다.",
                     "effects": {
                         "protective": {
-                            "_name": "Protective",
-                            "_description": "Add the item's Tier to your Armor Score"
+                            "_name": "방어",
+                            "_description": "해당 아이템의 티어를 당신의 방어도에 더합니다."
                         }
                     }
                 },
                 "quick": {
-                    "_name": "Quick",
-                    "_description": "When you make an attack, you can mark a Stress to target another creature within range.",
+                    "_name": "신속",
+                    "_description": "공격 시 스트레스를 1 표시하면 거리 내 다른 대상을 추가로 지정.",
                     "actions": {
                         "quick": {
-                            "_name": "Quick",
-                            "_description": "When you make an attack, you can mark a Stress to target another creature within range."
+                            "_name": "신속",
+                            "_description": "공격 시 스트레스를 1 표시하면 거리 내 다른 대상을 추가로 지정."
                         }
                     }
                 },
                 "reliable": {
-                    "_name": "Reliable",
-                    "_description": "+1 to attack rolls",
+                    "_name": "신뢰",
+                    "_description": "공격 굴림 +1",
                     "effects": {
                         "reliable": {
-                            "_name": "Reliable",
-                            "_description": "+1 to attack rolls"
+                            "_name": "신뢰",
+                            "_description": "공격 굴림 +1"
                         }
                     }
                 },
                 "reloading": {
-                    "_name": "Reloading",
-                    "_description": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+                    "_name": "재장전",
+                    "_description": "공격 후 d6을 굴려 1이 나오면, 다시 발사하기 전 스트레스를 1개 표시해야 함.",
                     "actions": {
                         "reload": {
-                            "_name": "Reload",
-                            "_description": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+                            "_name": "재장전",
+                            "_description": "공격 후 d6을 굴려 1이 나오면, 다시 발사하기 전 스트레스를 1개 표시해야 함."
                         }
                     }
                 },
                 "retractable": {
-                    "_name": "Retractable",
-                    "_description": "The blade can be hidden in the hilt to avoid detection.",
+                    "_name": "수납",
+                    "_description": "검신을 손잡이에 숨겨 탐지를 피할 수 있음.",
                     "actions": {
                         "retract": {
-                            "_name": "Retract",
-                            "_description": "The blade can be hidden in the hilt to avoid detection."
+                            "_name": "수납",
+                            "_description": "검신을 손잡이에 숨겨 탐지를 피할 수 있음."
                         }
                     }
                 },
                 "returning": {
-                    "_name": "Returning",
-                    "_description": "When this weapon is thrown within its range, it appears in your hand immediately after the attack.",
+                    "_name": "귀환",
+                    "_description": "이 무기를 거리 내에서 던지면, 공격 후 즉시 손으로 돌아옴.",
                     "actions": {
                         "return": {
-                            "_name": "Return",
-                            "_description": "When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+                            "_name": "귀환",
+                            "_description": "이 무기를 거리 내에서 던지면, 공격 후 즉시 손으로 돌아옴."
                         }
                     }
                 },
                 "scary": {
-                    "_name": "Scary",
-                    "_description": "On a successful attack, the target must mark a Stress.",
+                    "_name": "위압",
+                    "_description": "공격 성공 시 대상은 스트레스를 1개 표시해야 함.",
                     "actions": {
                         "scare": {
-                            "_name": "Scare",
-                            "_description": "On a successful attack, the target must mark a Stress."
+                            "_name": "위압",
+                            "_description": "공격 성공 시 대상은 스트레스를 1개 표시해야 함."
                         }
                     }
                 },
                 "selfCorrecting": {
-                    "_name": "Self Correcting",
-                    "_description": "When you roll a 1 on a damage die, it deals 6 damage instead.",
+                    "_name": "교정",
+                    "_description": "피해 주사위가 1이면, 대신 6 피해를 입힘.",
                     "effects": {
                         "selfCorrecting": {
-                            "_name": "Self Correcting",
-                            "_description": "When you roll a 1 on a damage die, it deals 6 damage instead."
+                            "_name": "교정",
+                            "_description": "피해 주사위가 1이면, 대신 6 피해를 입힘."
                         }
                     }
                 },
                 "serrated": {
-                    "_name": "Serrated",
-                    "_description": "When you roll a 1 on a damage die, it deals 8 damage instead.",
+                    "_name": "톱니",
+                    "_description": "피해 주사위가 1이면, 대신 8 피해를 입힘.",
                     "effects": {
                         "serrated": {
-                            "_name": "Serrated",
-                            "_description": "When you roll a 1 on a damage die, it deals 8 damage instead."
+                            "_name": "톱니",
+                            "_description": "피해 주사위가 1이면, 대신 8 피해를 입힘."
                         }
                     }
                 },
                 "sharpwing": {
-                    "_name": "Sharpwing",
-                    "_description": "Gain a bonus to your damage rolls equal to your Agility.",
+                    "_name": "날개칼날",
+                    "_description": "피해 굴림에 민첩 수치만큼 보너스.",
                     "effects": {
                         "sharpwing": {
-                            "_name": "Sharpwing",
-                            "_description": "Gain a bonus to your damage rolls equal to your Agility."
+                            "_name": "날개칼날",
+                            "_description": "피해 굴림에 민첩 수치만큼 보너스."
                         }
                     }
                 },
                 "sheltering": {
-                    "_name": "Sheltering",
-                    "_description": "When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage.",
+                    "_name": "보",
+                    "_description": "방어 슬롯을 표시하면 같은 피해를 입은 자신과 근접 거리 내의 모든 아군에게 피해 경감을 적용.",
                     "actions": {
                         "shelter": {
-                            "_name": "Shelter",
-                            "_description": "When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage."
+                            "_name": "보호",
+                            "_description": 방어 슬롯을 표시하면 같은 피해를 입은 자신과 근접 거리 내의 모든 아군에게 피해 경감을 적용."
                         }
                     }
                 },
                 "startling": {
-                    "_name": "Startling",
-                    "_description": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.",
+                    "_name": "위협",
+                    "_description": "스트레스를 표시하여 채찍을 휘둘러 근접 거리 내 모든 적을 가까운 거리로 밀어냄.",
                     "actions": {
                         "startle": {
-                            "_name": "Startle",
-                            "_description": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range."
+                            "_name": "위협",
+                            "_description": "스트레스를 표시하여 채찍을 휘둘러 근접 거리 내 모든 적을 가까운 거리로 밀어냄."
                         }
                     }
                 },
                 "timebending": {
-                    "_name": "Timebending",
-                    "_description": "You can choose the target of your attack after making your attack roll.",
+                    "_name": "시간 왜곡",
+                    "_description": "공격 굴림을 한 후 대상을 선택할 수 있음.",
                     "actions": {
                         "bendTime": {
-                            "_name": "Bend Time",
-                            "_description": "You can choose the target of your attack after making your attack roll."
+                            "_name": "시간 왜곡곡",
+                            "_description": "공격 굴림을 한 후 대상을 선택할 수 있음."
                         }
                     }
                 }
@@ -1672,319 +1672,319 @@
         "EFFECTS": {
             "ApplyLocations": {
                 "attackRoll": {
-                    "name": "Tirada de ataque"
+                    "name": "공격 굴림"
                 },
                 "damageRoll": {
-                    "name": "Tirada de daño"
+                    "name": "피해 굴림"
                 },
                 "healingRoll": {
-                    "name": "Tirada de sanación"
+                    "name": "치유 굴"
                 }
             },
             "Duration": {
-                "passive": "Pasiva",
-                "temporary": "Temporal"
+                "passive": "상시",
+                "temporary": "일시"
             },
             "Types": {
                 "damage": {
-                    "name": "Daño"
+                    "name": "피해"
                 },
                 "hitPoints": {
-                    "name": "Puntos de Golpe"
+                    "name": "HP"
                 },
                 "reach": {
-                    "name": "Alcance"
+                    "name": "거리"
                 },
                 "stress": {
-                    "name": "Estrés"
+                    "name": "스트레"
                 }
             },
             "Attachments": {
-                "attachHint": "Arrastra objetos aquí para adjuntarlos",
-                "transferHint": "Si está marcado este efecto será aplicado a cualquier actor que tenga el Objeto al que pertenece este efecto. El efecto siempre se aplica si este Objeto está adjunto a otro."
+                "attachHint": "여기에 아이템을 끌어와 부착할 수 있습니다.",
+                "transferHint": "이 효과가 체크되어 있으면, 효과가 속한 아이템을 가진 모든 액터에게 적용됩니다. 이 아이템이 다른 것에 부착되어 있으면 효과는 항상 적용됩니다."
             }
         },
         "GENERAL": {
             "Action": {
-                "single": "Acción",
-                "plural": "Acciones"
+                "single": "행동",
+                "plural": "행동들"
             },
             "Advantage": {
-                "full": "Ventaja",
-                "plural": "Ventajas",
-                "short": "Ven"
+                "full": "이점",
+                "plural": "이점들",
+                "short": "이점"
             },
             "Adversary": {
-                "singular": "Adversario",
-                "plural": "Adversarios"
+                "singular": "적대자",
+                "plural": "적대자들"
             },
             "Bonuses": {
                 "rest": {
-                    "_downtimeAction": "Downtime Action",
+                    "_downtimeAction": "휴식 행",
                     "shortRest": {
                         "shortRestMoves": {
-                            "_label": "Short Rest: Bonus Short Rest Moves",
-                            "_hint": "The number of extra Short Rest Moves the character can take during a Short Rest."
+                            "_label": "짧은 휴식: 추가 짧은 휴식 동작",
+                            "_hint": "캐릭터가 짧은 휴식 동안 추가로 취할 수 있는 짧은 휴식 동작의 수입니다.."
                         },
                         "longRestMoves": {
-                            "_label": "Short Rest: Bonus Long Rest Moves",
-                            "_hint": "The number of extra Long Rest Moves the character can take during a Short Rest."
+                            "_label": "짧은 휴식: 추가 긴 휴식 동작",
+                            "_hint": "캐릭터가 짧은 휴식 동안 추가로 취할 수 있는 긴 휴식 동작의 수입니다."
                         }
                     },
                     "longRest": {
                         "shortRestMoves": {
-                            "_label": "Long Rest: Bonus Short Rest Moves",
-                            "_hint": "The number of extra Short Rest Moves the character can take during a Long Rest."
+                            "_label": "긴 휴식: 추가 짧은 휴식 동작",
+                            "_hint": "캐릭터가 긴 휴식 동안 추가로 취할 수 있는 짧은 휴식 동작의 수입니다."
                         },
                         "longRestMoves": {
-                            "_label": "Long Rest: Bonus Long Rest Moves",
-                            "_hint": "The number of extra Long Rest Moves the character can take during a Long Rest."
+                            "_label": "긴 휴식: 추가 긴 휴식 동작",
+                            "_hint": "캐릭터가 긴 휴식 동안 추가로 취할 수 있는 긴 휴식 동작의 수입니다."
                         }
                     }
                 },
                 "maxLoadout": {
-                    "label": "Bonificador de cartas máximas en la mano"
+                    "label": "손에 들 수 있는 최대 카드 보너스"
                 }
             },
             "Character": {
-                "singular": "Personaje",
-                "plural": "Personaje"
+                "singular": "캐릭터",
+                "plural": "캐릭터들"
             },
             "Cost": {
-                "single": "Coste",
-                "plural": "Costes"
+                "single": "비용",
+                "plural": "비용"
             },
             "Damage": {
-                "severe": "Severo",
-                "major": "Mayor",
-                "minor": "Menor",
-                "none": "Ninguno",
-                "allDamage": "Todo el daño",
-                "physicalDamage": "Daño Físico",
-                "magicalDamage": "Daño Mágico",
-                "primaryWeapon": "Daño del arma principal",
-                "secondaryWeapon": "Daño del arma secundaria"
+                "severe": "심각",
+                "major": "중상",
+                "minor": "경",
+                "none": "없음",
+                "allDamage": "모든 피해",
+                "physicalDamage": "물리 피해",
+                "magicalDamage": "마법 피해",
+                "primaryWeapon": "주 무기 피해",
+                "secondaryWeapon": "보조 무기 피"
             },
             "DamageResistance": {
-                "none": "Ninguna",
+                "none": "없음",
                 "physicalResistance": {
-                    "_label": "Damage Resistance: Physical",
-                    "_hint": "Physical Damage is halved if this is set to 1"
+                    "_label": "피해 저항: 물리",
+                    "_hint": "값이 1일 경우, 물리 피해는 절반으로 줄어듭니다."
                 },
                 "magicalResistance": {
-                    "_label": "Damage Resistance: Magical",
-                    "_hint": "Magical Damage is halved if this is set to 1"
+                    "_label": "피해 저항: 마법",
+                    "_hint": "값이 1일 경우, 마법 피해는 절반으로 줄어듭니다."
                 },
                 "physicalImmunity": {
-                    "_label": "Damage Immunity: Physical",
-                    "_hint": "Immune to Physical Damage if this is set to 1"
+                    "_label": "피해 면역: 물리",
+                    "_hint": "값이 1일 경우, 물 피해에 면역입니다."
                 },
                 "magicalImmunity": {
-                    "_label": "Damage Immunity: Magical",
-                    "_hint": "Immune to Magical Damage if this is set to 1"
+                    "_label": "피해 면역: 마법",
+                    "_hint": "값이 1일 경우, 마법 피해에 면역입니다."
                 },
                 "physicalReduction": {
-                    "_label": "Damage Reduction: Physical",
-                    "_hint": "Physical Damage is reduced by the amount set here"
+                    "_label": "피해 감소: 물리",
+                    "_hint": "여기에 지정된 수치만큼 물리 피해가 감소합니다."
                 },
                 "magicalReduction": {
-                    "_label": "Damage Reduction: Magical",
-                    "_hint": "Magical Damage is reduced by the amount set here"
+                    "_label": "피해 감소: 마",
+                    "_hint": "여기에 지정된 수치만큼 마법 피해가 감소합니다."
                 }
             },
             "DamageThresholds": {
-                "title": "Límites de Daño",
-                "minor": "Menor",
-                "major": "Mayor",
-                "severe": "Severo",
-                "majorThreshold": "Límite de daño mayor",
-                "severeThreshold": "Límite de daño severo",
-                "with": "Límite de daño {threshold}"
+                "title": "피해 임계치",
+                "minor": "심각",
+                "major": "중상",
+                "severe": "경",
+                "majorThreshold": "중상 피해 임계치",
+                "severeThreshold": "심각 피해 임계치",
+                "with": "피해 임계치 {threshold}"
             },
             "Dice": {
-                "single": "Dado",
-                "plural": "Dados"
+                "single": "주사위",
+                "plural": "주사위들"
             },
             "Difficulty": {
-                "all": "Dificultad: todos",
-                "reaction": "Dificultad: reacción"
+                "all": "난이도: 전체",
+                "reaction": "난이도: 대응"
             },
             "Disadvantage": {
-                "full": "Desventaja",
-                "short": "Des"
+                "full": "불리점",
+                "short": "불리"
             },
             "Domain": {
-                "single": "Dominio",
-                "plural": "Dominios",
+                "single": "권역",
+                "plural": "권역",
                 "arcana": {
-                    "label": "Arcano",
-                    "_description": "This is the domain of the innate or instinctual use of magic. Those who walk this path tap into the raw, enigmatic forces of the realms to manipulate both the elements and their own energy. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled."
+                    "label": "비전",
+                    "_description": "비전은 선천적이고 본능적인 마법의 권역입니다. 비전은 다루는 이에게 불안정한 힘을 제공하지만, 올바르게 조율하면 그 힘은 매우 강력합니다."
                 },
                 "blade": {
-                    "label": "Filo",
-                    "_description": "This is the domain of those who dedicate their lives to the mastery of weapons. Whether by blade, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Blade requires study and dedication from its followers, in exchange for inexorable power over death."
+                    "label": "칼날",
+                    "_description": "칼날은 무기 통달의 권역입니다. 칼날을 다루는 이들은 죽음을 압도하는 피할 수 없는 힘을 얻기 위해 자신을 바칩니다."
                 },
                 "bone": {
-                    "label": "Hueso",
-                    "_description": "This is the domain of mastery of swiftness and tactical mastery. Practitioners of this domain have an uncanny control over their own physical abilities, and an eye for predicting the behaviors of others in combat. Bone grants its adherents unparalleled understanding of bodies and their movements in exchange for diligent training."
+                    "label": "뼈",
+                    "_description": "뼈는 전술과 육체의 권역입니다. 뼈를 따르는 이들은 신체와 그 움직임에 대한 비할 데 없는 통찰을 얻게 됩니다."
                 },
                 "codex": {
-                    "label": "Códex",
-                    "_description": "This is the domain of intensive magical study. Those who seek magical knowledge turn to the recipes of power recorded in books, on scrolls, etched into walls, or tattooed on bodies. Codex offers a commanding and versatile understanding of magic to those devotees who are willing to seek beyond the common knowledge."
+                    "label": "고서",
+                    "_description": "고서는 집중적인 마법 연구의 권역입니다. 고서는 평범한 지혜의 한계를 넘어 지식을 추구하는 신봉자들에게 강력하고 유연한 마법 이해를 제공합니다."
                 },
                 "grace": {
-                    "label": "Gracia",
-                    "_description": "This is the domain of charisma. Through rapturous storytelling, clever charm, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language."
+                    "label": "은총",
+                    "_description": "은총은 카리스마의 영역입니다. 은총은 그것을 다루는 자에게 타고난 매력과 언어에 대한 지배력을 부여합니다."
                 },
                 "midnight": {
-                    "label": "Medianoche",
-                    "_description": "This is the domain of shadows and secrecy. Whether by clever tricks, or cloak of night those who channel these forces are practiced in that art of obscurity and there is nothing hidden they cannot reach. Midnight offers practitioners the incredible power to control and create enigmas."
+                    "label": "밤",
+                    "_description": "밤은 그림자와 비밀의 권역입니다. 밤은 수련자에게 수수께끼를 통제하고 창조하는 힘을 제공합니다."
                 },
                 "sage": {
-                    "label": "Sabio",
-                    "_description": "This is the domain of the natural world. Those who walk this path tap into the unfettered power of the earth and its creatures to unleash raw magic. Sage grants its adherents the vitality of a blooming flower and ferocity of a hungry predator."
+                    "label": "현",
+                    "_description": "현자는 자연 세계의 권역입니다. 현자는 따르는 이들에게 만개한 꽃의 활력과 굶주린 포식자의 사나움을 부여합니다."
                 },
                 "splendor": {
-                    "label": "Esplendor",
-                    "_description": "This is the domain of life. Through this magic, followers gain the ability to heal, though such power also grants the wielder some control over death. Splendor offers its disciples the magnificent ability to both give and end life."
+                    "label": "광휘",
+                    "_description": "광휘는 생명의 권역입니다. 광휘는 따르는 이들에게 생명을 주고 또한 끝낼 수 있는 장엄한 능력을 부여합니다."
                 },
                 "valor": {
-                    "label": "Valor",
-                    "_description": "This is the domain of protection. Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shield in defense of others."
+                    "label": "용맹",
+                    "_description": "용맹은 보호의 권역입니다. 용맹은 타인을 지키기 위해 방패를 들어 올리는 이들에게 위대한 힘을 부여합니다."
                 }
             },
             "Effect": {
-                "single": "Efecto",
-                "plural": "Efectos"
+                "single": "효과",
+                "plural": "효과들"
             },
             "Experience": {
-                "single": "Experiencia",
-                "plural": "Experiencias"
+                "single": "경험",
+                "plural": "경험들"
             },
             "Healing": {
-                "healingAmount": "Cantidad de sanación"
+                "healingAmount": "치유"
             },
             "Modifier": {
-                "single": "Modificador",
-                "plural": "Modificadores"
+                "single": "수정치",
+                "plural": "수정치들"
             },
             "Neutral": {
-                "full": "Ninguno",
-                "short": "no"
+                "full": "없음",
+                "short": "-"
             },
             "Range": {
-                "other": "Incremento de alcance: Otro",
-                "spell": "Incremento de alcance: Conjuro",
-                "weapon": "Incremento de alcance: Arma"
+                "other": "거리 증가: 기타",
+                "spell": "거리 증가: 주문",
+                "weapon": "거리 증가: 무기"
             },
             "RefreshType": {
-                "scene": "Escena",
-                "session": "Sesión",
-                "shortrest": "Descanso corto",
-                "longrest": "Descanso largo"
+                "scene": "장면",
+                "session": "세션",
+                "shortrest": "짧은 휴식",
+                "longrest": "긴 휴식"
             },
             "Resource": {
-                "single": "Recurso",
-                "plural": "Recursos"
+                "single": "자원",
+                "plural": "자원들"
             },
             "Roll": {
-                "attack": "Tirada de ataque",
-                "basic": "Tirada",
-                "difficulty": "Tirada (Dificultad {difficulty})",
-                "primaryWeaponAttack": "Tirada de ataque de arma principal",
-                "secondaryWeaponAttack": "Tirada de ataque de arma secundaria",
-                "spellcast": "Tirada de lanzamiento de conjuro",
-                "trait": "Tirada de atributo",
-                "action": "Tirada de acción",
-                "reaction": "Tirada de reacción"
+                "attack": "공격 굴림",
+                "basic": "굴",
+                "difficulty": "굴림 (난이도 {difficulty})",
+                "primaryWeaponAttack": "주 무기 공격 굴림",
+                "secondaryWeaponAttack": "보조 무기 공격 굴림",
+                "spellcast": "주문시전 굴림",
+                "trait": "특성 굴림",
+                "action": "행동 굴림",
+                "reaction": "대응 굴림"
             },
             "Rules": {
                 "damageReduction": {
                     "increasePerArmorMark": {
-                        "_label": "Damage Reduction per Armor Slot",
-                        "_hint": "A used armor slot normally reduces damage by one step. This value increases the number of steps damage is reduced by."
+                        "_label": "방어 슬롯당 피해 감소",
+                        "_hint": "사용된 방어 슬롯은 일반적으로 피해를 한 단계 줄입니다. 이 값은 피해가 줄어드는 단계를 증가시킵니다."
                     },
-                    "_maxArmorMarkedBonus": "Max Armor Used",
+                    "_maxArmorMarkedBonus": "최대 사용 방어도",
                     "maxArmorMarkedStress": {
-                        "_label": "Max Armor Used With Stress",
-                        "_hint": "If this value is set you can use up to that much stress to spend additional Armor Marks beyond your normal maximum."
+                        "_label": "스트레스를 통한 최대 방어 사용",
+                        "_hint": "이 값이 설정되면, 일반적인 최대치를 초과하여 추가 방어 슬롯을 사용하기 위해 해당 수치만큼 스트레스를 소모할 수 있습니다."
                     },
                     "stress": {
                         "any": {
-                            "_label": "Stress Damage Reduction: Any",
-                            "_hint": "The cost in stress you can pay to reduce incoming damage down one threshold"
+                            "_label": "스트레스 피해 감소: 전체",
+                            "_hint": "들어오는 피해를 한 임계치 줄이기 위해 지불할 수 있는 스트레스의 비용입니다."
                         },
                         "severe": {
-                            "_label": "Stress Damage Reduction: Severe",
-                            "_hint": "The cost in stress you can pay to reduce severe damage down to major."
+                            "_label": "스트레스 피해 감소: 심각",
+                            "_hint": "심각한 피해를 중상 피해로 줄이기 위해 지불할 수 있는 스트레스의 비용입니다."
                         },
                         "major": {
-                            "_label": "Stress Damage Reduction: Major",
-                            "_hint": "The cost in stress you can pay to reduce major damage down to minor."
+                            "_label": "스트레스 피해 감소: 중상",
+                            "_hint": "중상 피해를 경상 피해로 줄이기 위해 지불할 수 있는 스트레스의 비용입니다."
                         },
                         "minor": {
-                            "_label": "Stress Damage Reduction: Minor",
-                            "_hint": "The cost in stress you can pay to reduce minor damage to none."
+                            "_label": "스트레스 피해 감소: 경상",
+                            "_hint": "경미한 피해를 없애기 위해 지불할 수 있는 스트레스의 비용입니다."
                         }
                     }
                 },
                 "attack": {
                     "damage": {
                         "dice": {
-                            "label": "Ataque base: Índice de dado de daño",
-                            "hint": "Índice para el dado de daño usado en un ataqe básico. 0=d4, 1=d6, 2=d8, 3=d10, 4=d12, 5=d20"
+                            "label": "기본 공격: 피해 주사위 지수",
+                            "hint": "기본 공격에 사용되는 피해 주사위 지수입니다. 0=d4, 1=d6, 2=d8, 3=d10, 4=d12, 5=d20"
                         },
                         "bonus": {
-                            "label": "Ataque base: Bonificador al daño"
+                            "label": "기본 공격: 피해 보너스"
                         }
                     },
                     "roll": {
                         "trait": {
-                            "label": "Ataque base: Atributo"
+                            "label": "기본 공격: 특성"
                         }
                     }
                 }
             },
             "Tabs": {
-                "details": "Detalles",
-                "attack": "Ataque",
-                "experiences": "Experiencias",
-                "features": "Rasgos",
-                "actions": "Acciones",
-                "potentialAdversaries": "Adversarios potenciales",
-                "adversaries": "Adversarios",
-                "advancement": "Subida de nivel",
-                "selections": "Opciones de avance",
-                "summary": "Resumen",
-                "effects": "Efectos",
-                "settings": "Ajustes",
-                "description": "Descripción",
-                "main": "Datos",
-                "information": "Información",
-                "notes": "Notas",
-                "inventory": "Inventario",
-                "loadout": "Mano",
-                "vault": "Mazo",
-                "heritage": "Legado",
-                "story": "Historia",
-                "biography": "Biografía",
-                "general": "General",
-                "foundation": "Base",
-                "specialization": "Especialización",
-                "mastery": "Maestría",
-                "optional": "Opcional",
-                "recovery": "Recuperación",
-                "setup": "Configuración",
-                "equipment": "Equipo",
-                "attachments": "Adjuntos",
-                "advanced": "Avanzado",
-                "tier1": "Rango 1",
-                "tier2": "Rango 2",
-                "tier3": "Rango 3",
-                "tier4": "Rango 4",
-                "domains": "Dominios",
-                "downtime": "Tiempo de inactividad",
-                "rules": "Reglas"
+                "details": "세부사항",
+                "attack": "공격",
+                "experiences": "경험들",
+                "features": "기능",
+                "actions": "행동들",
+                "potentialAdversaries": "잠재적 적대자",
+                "adversaries": "적대자들",
+                "advancement": "레벨 상승",
+                "selections": "성장 선택지",
+                "summary": "요약",
+                "effects": "효과들",
+                "settings": "설정",
+                "description": "설명",
+                "main": "데이터",
+                "information": "정보",
+                "notes": "메모",
+                "inventory": "인벤토리",
+                "loadout": "손패",
+                "vault": "덱",
+                "heritage": "유산",
+                "story": "스토리",
+                "biography": "전기",
+                "general": "일반",
+                "foundation": "기초",
+                "specialization": "전문화",
+                "mastery": "숙련",
+                "optional": "선택",
+                "recovery": "회복",
+                "setup": "설정",
+                "equipment": "장비",
+                "attachments": "부착물",
+                "advanced": "고급",
+                "tier1": "계층 1",
+                "tier2": "계층 2",
+                "tier3": "계층 3",
+                "tier4": "계층 4",
+                "domains": "권역",
+                "downtime": "비활동 시간",
+                "rules": "규칙"
             },
             "Tiers": {
                 "1": "Rango 1",
@@ -2594,6 +2594,7 @@
         }
     }
 }
+
 
 
 
