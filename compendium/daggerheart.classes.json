@@ -1,7 +1,7 @@
 {
-	"label": "Clases",
+	"label": "클래스",
 	"folders": {
-		"Class Features": "Rasgos de clase",
+		"Class Features": "클래스 기능",
 		"Class Items": "Objetos de clase",
 		"Seraph": "Serafín",
 		"Bard": "Bardo",
@@ -15,7 +15,7 @@
 	},
 	"entries": {
 		"Seraph": {
-			"name": "Serafín"
+			"name": "세라프"
 		},
 		"Bard": {
 			"name": "Bardo"
